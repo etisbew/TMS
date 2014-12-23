@@ -2,3 +2,21 @@ services:
 #    tms_user_join_page.example:
 #        class: TMS\UserJoinPageBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]
+services:
+    tms.userjoinpage.admin.usertype:
+        class: TMS\UserJoinPageBundle\Admin\UserTypeAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: UserJoinPage, label: UserType }
+        arguments:
+            - ~
+            - TMS\UserJoinPageBundle\Entity\UserType
+            - 'TMSUserJoinPageBundle:UserTypeAdmin'
+ 
+    tms.userjoinpage.admin.user:
+        class: TMS\UserJoinPageBundle\Admin\UserAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: UserJoinPage, label: Users }
+        arguments:
+            - ~
+            - TMS\UserJoinPageBundle\Entity\User
+            - 'TMSUserJoinPageBundle:UserAdmin'

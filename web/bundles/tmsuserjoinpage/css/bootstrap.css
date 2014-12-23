@@ -6775,6 +6775,11 @@ td.visible-print {
   display: none !important;
 }
 
+.sonata-ba-list
+{
+	overflow:scroll !important;
+}
+
 @media print {
   .visible-print {
     display: block !important;
@@ -6797,3 +6802,4 @@ td.visible-print {
     display: none !important;
   }
 }
+
