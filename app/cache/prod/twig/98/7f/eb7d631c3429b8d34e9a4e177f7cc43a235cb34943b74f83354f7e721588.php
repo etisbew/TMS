@@ -36,19 +36,19 @@ class __TwigTemplate_987feb7d631c3429b8d34e9a4e177f7cc43a235cb34943b74f83354f7e7
     {
         // line 2
         echo "\t<link rel=\"stylesheet\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/msms/css/main.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/main.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 \t<link rel=\"stylesheet\" href=\"";
         // line 3
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/msms/css/bootstrap.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/bootstrap.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 \t<link rel=\"stylesheet\" href=\"";
         // line 4
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/msms/css/bootstrap-theme.min.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/bootstrap-theme.min.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 \t<link rel=\"stylesheet\" href=\"";
         // line 5
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/msms/css/theme.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/theme.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 ";
     }
