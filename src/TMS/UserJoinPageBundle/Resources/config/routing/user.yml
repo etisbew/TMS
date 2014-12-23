@@ -1,30 +1,30 @@
-tms_user:
+user:
     path:     /
     defaults: { _controller: "TMSUserJoinPageBundle:User:index" }
 
-tms_user_show:
+user_show:
     path:     /{id}/show
     defaults: { _controller: "TMSUserJoinPageBundle:User:show" }
 
-tms_user_new:
+user_new:
     path:     /new
     defaults: { _controller: "TMSUserJoinPageBundle:User:new" }
 
-tms_user_create:
+user_create:
     path:     /create
     defaults: { _controller: "TMSUserJoinPageBundle:User:create" }
     requirements: { _method: post }
 
-tms_user_edit:
+user_edit:
     path:     /{id}/edit
     defaults: { _controller: "TMSUserJoinPageBundle:User:edit" }
 
-tms_user_update:
+user_update:
     path:     /{id}/update
     defaults: { _controller: "TMSUserJoinPageBundle:User:update" }
     requirements: { _method: post|put }
 
-tms_user_delete:
+user_delete:
     path:     /{id}/delete
     defaults: { _controller: "TMSUserJoinPageBundle:User:delete" }
     requirements: { _method: post|delete }

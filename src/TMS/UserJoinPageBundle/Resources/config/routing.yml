@@ -1,7 +1,7 @@
-tms_user_join_page_tms_user:
+user_join_page_tms_user:
     resource: "@TMSUserJoinPageBundle/Resources/config/routing/user.yml"
     prefix:   /tms_user
 
-tms_user_join_page_homepage:
+user_join_page_homepage:
     path:     /hello/{name}
     defaults: { _controller: TMSUserJoinPageBundle:Default:index }

@@ -171,9 +171,9 @@ class __TwigTemplate_5913ca25d44a4f4d459db8eb7eaf7f50fbb56d2342649b2ab1c6202ad03
             </div>
             <div class=\"row\">
                 <div class=\"col-md-8 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-3 text-center-xs\">
-                    <a href=\"../../prototype-general-flat/prototypes/index.html#Welcome_Step_1\"><img src=\"/musicsite/web/bundles/TMSUserJoinPageBundle/images/home_twitter_signup.jpg\" alt=\"\"></a>
+                    <a href=\"../../prototype-general-flat/prototypes/index.html#Welcome_Step_1\"><img src=\"/Music_Site/web/bundles/tmsuserjoinpage/images/home_twitter_signup.jpg\" alt=\"\"></a>
                     <p></p>
-                    <a href=\"../../prototype-general-flat/prototypes/index.html#Welcome_Step_1\"><img src=\"/musicsite/web/bundles/TMSUserJoinPageBundle/images/home_fb_signup.jpg\" alt=\"\"></a><br>
+                    <a href=\"../../prototype-general-flat/prototypes/index.html#Welcome_Step_1\"><img src=\"/Music_Site/web/bundles/tmsuserjoinpage/images/home_fb_signup.jpg\" alt=\"\"></a><br>
                 </div>
             </div>
             <div class=\"row\">
