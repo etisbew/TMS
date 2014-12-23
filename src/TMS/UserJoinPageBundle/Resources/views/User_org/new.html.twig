@@ -1,0 +1,20 @@
+{% extends 'TMSUserJoinPageBundle::layout.html.twig' %}
+ 
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('bundles/tmsuserjoinpage/css/jobs.css') }}" type="text/css" media="all" />
+{% endblock %}
+
+{% block content -%}
+    <h1>User creation</h1>
+
+    {{ form(form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('tms_user') }}">
+            Back to the list
+        </a>
+    </li>
+</ul>
+{% endblock %}
