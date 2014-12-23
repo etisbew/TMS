@@ -1,0 +1,4 @@
+tms_user_join_page:
+    resource: "@TMSUserJoinPageBundle/Resources/config/routing.yml"
+    prefix:   /
+

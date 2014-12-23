@@ -1,0 +1,3 @@
+tms_user_join_page_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TMSUserJoinPageBundle:Default:index }

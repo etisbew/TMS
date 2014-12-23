@@ -1,0 +1,4 @@
+services:
+#    tms_user_join_page.example:
+#        class: TMS\UserJoinPageBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
