@@ -250,5 +250,25 @@ right: 6px;  top: -8px;  text-align: center;  line-height: 17px;   border-radius
     .player_slider_navbar{max-height:378px;}
 }
 
+.footer_links {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+.footer_links li {
+margin-right: 30px;
+float: left;
+}
+.footer_social_icons {
+list-style: none;
+float: right;
+padding: 0px;
+margin: 0px;
+}
+.footer_social_icons li {
+float: left;
+margin-right: 5px;
+}
+
 
 /* BOTTOM RESPONSIVE PLAYER CSS END */

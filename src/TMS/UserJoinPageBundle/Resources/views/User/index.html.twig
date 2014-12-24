@@ -66,12 +66,13 @@
                     <h3>Log In</h3>
                 </div>
             </div>
+			<form action="{{ path('userlogin_check') }}" method="post">
             <div class="row home_login_row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     Username
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                    <input type="text" class="form-control input-sm">
+                    <input type="text" id="username" name="_username" class="form-control input-sm">
                 </div>
             </div>
             <div class="row home_login_row">
@@ -79,7 +80,7 @@
                     Password
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                    <input type="text" class="form-control input-sm">
+                    <input type="password" id="password" name="_password" class="form-control input-sm">
                 </div>
             </div>
             <div class="row home_login_row">
@@ -95,10 +96,11 @@
                     </div>
                 </div>
             </div>
+			</form>
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 hidden-xs hidden-sm">&nbsp;</div>
                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 text-left-sm">
-                    <a href="../../prototype-general-flat/prototypes/index.html#Forgot_Password_Page">Forgot Password?</a> | <a href="../../prototype-general-flat/prototypes/index.html#Forgot_Username_Page">Forgot Username?</a>
+                    <a href="{{ path('tms_user_join_page_forgotpwd') }}">Forgot Password?</a> | <a href="../../prototype-general-flat/prototypes/index.html#Forgot_Username_Page">Forgot Username?</a>
                 </div>
             </div>
             <div class="row">
@@ -131,12 +133,12 @@
                     <hr style="border-bottom:1px solid #666;">
                     <div class="row">
                         <ul class="tms_list">
-                            <li><a href="../../prototype-general-flat/prototypes/index.html#Privacy_Policy_Page">Privacy Policy</a></li>
-                            <li><a href="../../prototype-general-flat/prototypes/index.html#Terms_and_Conditions_Page">Terms &amp; Conditions</a></li>
-                            <li><a href="../../prototype-general-flat/prototypes/index.html#JobOpportunities_Overview">Job Opps</a></li>
-                            <li><a href="../../prototype-general-flat/prototypes/index.html#Invite_a_Friend_Pop_Up">Invite a Friend</a></li>
-                            <li><a href="../../prototype-general-flat/prototypes/index.html#Contact_Us_Page">Contact Us</a></li>
-                            <li><a href="../../prototype-advertising-flat/prototypes/index.html#Advertise_Home">Advertise</a></li>
+                            <li><a href="{{ path('privacypolicy') }}">Privacy Policy</a></li>
+                            <li><a href="{{ path('termsconditions') }}">Terms &amp; Conditions</a></li>
+                            <li><a href="{{ path('jobopportunities') }}">Job Opps</a></li>
+                            <li><a href="{{ path('invite_a_friend') }}">Invite a Friend</a></li>
+                            <li><a href="{{ path('contact_us') }}">Contact Us</a></li>
+                            <li><a href="{{ path('advertise') }}">Advertise</a></li>
                         </ul>
                     </div>
                 </div>

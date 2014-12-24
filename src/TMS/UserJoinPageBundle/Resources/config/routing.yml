@@ -1,7 +1,36 @@
-user_join_page_tms_user:
+privacypolicy:
+    path:   /privacy_policy
+    defaults:  { _controller: TMSUserJoinPageBundle:User:PrivacyPolicy }
+termsconditions:
+    path:   /termsconditions
+    defaults:  { _controller: TMSUserJoinPageBundle:User:TermsConditions }
+jobopportunities:
+    path:   /jobopportunities
+    defaults:  { _controller: TMSUserJoinPageBundle:User:JobOpportunities }
+invite_a_friend:
+    path:   /invite_a_friend
+    defaults:  { _controller: TMSUserJoinPageBundle:User:InviteAFriend }
+contact_us:
+    path:   /contact_us
+    defaults:  { _controller: TMSUserJoinPageBundle:User:ContactUs }
+advertise:
+    path:   /advertise
+    defaults:  { _controller: TMSUserJoinPageBundle:User:Advertise }
+userlogin:
+    path:   /userlogin
+    defaults:  { _controller: TMSUserJoinPageBundle:User:userlogin }
+
+userlogin_check:
+    pattern:   /userlogin_check
+    defaults:  { _controller: TMSUserJoinPageBundle:User:userlogin }
+tms_user_join_page_forgotpwd:
+    path:     /forgotpwd
+    defaults: { _controller: TMSUserJoinPageBundle:User:forgotpwd }
+tms_user_join_page_tms_user:
     resource: "@TMSUserJoinPageBundle/Resources/config/routing/user.yml"
     prefix:   /tms_user
 
 user_join_page_homepage:
     path:     /hello/{name}
     defaults: { _controller: TMSUserJoinPageBundle:Default:index }
+
