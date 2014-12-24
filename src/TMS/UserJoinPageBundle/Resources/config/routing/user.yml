@@ -28,3 +28,6 @@ tms_user_delete:
     path:     /{id}/delete
     defaults: { _controller: "TMSUserJoinPageBundle:User:delete" }
     requirements: { _method: post|delete }
+tms_user_forgot:
+    path:     /forgot
+    defaults: { _controller: "TMSUserJoinPageBundle:User:forgot" }

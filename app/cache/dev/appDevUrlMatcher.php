@@ -122,6 +122,54 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        // privacypolicy
+        if ($pathinfo === '/privacy_policy') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::PrivacyPolicyAction',  '_route' => 'privacypolicy',);
+        }
+
+        // termsconditions
+        if ($pathinfo === '/termsconditions') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::TermsConditionsAction',  '_route' => 'termsconditions',);
+        }
+
+        // jobopportunities
+        if ($pathinfo === '/jobopportunities') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::JobOpportunitiesAction',  '_route' => 'jobopportunities',);
+        }
+
+        // invite_a_friend
+        if ($pathinfo === '/invite_a_friend') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::InviteAFriendAction',  '_route' => 'invite_a_friend',);
+        }
+
+        // contact_us
+        if ($pathinfo === '/contact_us') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::ContactUsAction',  '_route' => 'contact_us',);
+        }
+
+        // advertise
+        if ($pathinfo === '/advertise') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::AdvertiseAction',  '_route' => 'advertise',);
+        }
+
+        if (0 === strpos($pathinfo, '/userlogin')) {
+            // userlogin
+            if ($pathinfo === '/userlogin') {
+                return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::userloginAction',  '_route' => 'userlogin',);
+            }
+
+            // userlogin_check
+            if ($pathinfo === '/userlogin_check') {
+                return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::userloginAction',  '_route' => 'userlogin_check',);
+            }
+
+        }
+
+        // tms_user_join_page_forgotpwd
+        if ($pathinfo === '/forgotpwd') {
+            return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::forgotpwdAction',  '_route' => 'tms_user_join_page_forgotpwd',);
+        }
+
         if (0 === strpos($pathinfo, '/tms_user')) {
             // tms_user
             if (rtrim($pathinfo, '/') === '/tms_user') {
@@ -179,6 +227,11 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return $this->mergeDefaults(array_replace($matches, array('_route' => 'tms_user_delete')), array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::deleteAction',));
             }
             not_tms_user_delete:
+
+            // tms_user_forgot
+            if ($pathinfo === '/tms_user/forgot') {
+                return array (  '_controller' => 'TMS\\UserJoinPageBundle\\Controller\\UserController::forgotAction',  '_route' => 'tms_user_forgot',);
+            }
 
         }
 

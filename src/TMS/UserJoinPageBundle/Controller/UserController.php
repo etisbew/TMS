@@ -221,4 +221,79 @@ class UserController extends Controller
             ->getForm()
         ;
     }
+	
+	public function forgotpwdAction()
+	{
+		//return $this->render('TMSUserJoinPageBundle:User:forgotpwd.html.twig');
+		  $entity = new User();
+		$form   = $this->createCreateForm($entity);
+
+        return $this->render('TMSUserJoinPageBundle:User:forgotpwd.html.twig', array(
+            'entity' => $entity,
+            'form'   => $form->createView(),
+        ));
+	}
+	//login
+	
+		 public function loadUserByUsername($username)
+	{
+		/** @var $em EntityManager */
+		$em = $this->container->get('doctrine')->getManager();
+		$user = $em->getRepository('TMSUserJoinPageBundle:User')->findOneBy(array('email' => $username));
+		if ($user != null) {
+			return $user;
+		}
+		return false;
+	}
+	
+	public function UserLoginAction(Request $request)
+	{
+		 $username=$request->get('_username');
+		 $password=$request->get('_password');
+		/** @var $user User */
+		$user = $this->loadUserByUsername($username);//use function loadUserByUsername above
+		
+		if ($user) {
+			//$encoder = $this->container->get('security.encoder_factory')->getEncoder($user);
+			//encode Password from password & salt of user
+		   // $encodedPass = $encoder->encodePassword($password, $user->getSalt());
+			if ($password == $user->getPassword()) {
+				$error = '';
+				//login info is true, you can return $user
+				//return true;
+				return $this->render('TMSUserJoinPageBundle:User:home.html.twig', array(
+            'error'      => $error,
+        ));
+			}
+		}
+		//login info is false
+		$error = 'Invalid username & password';
+		return $this->render('TMSUserJoinPageBundle:User:index.html.twig', array(
+            'error'      => $error,
+        ));
+	}
+	public function PrivacyPolicyAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:privacy_policy.html.twig');
+    }
+	public function TermsConditionsAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:terms_conditions.html.twig');
+    }
+	public function JobOpportunitiesAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:jobopportunities.html.twig');
+    }
+	public function InviteAFriendAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:invite_a_friend.html.twig');
+    }
+	public function ContactUsAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:contact_us.html.twig');
+    }
+	public function AdvertiseAction()
+    {
+        return $this->render('TMSUserJoinPageBundle:User:advertise.html.twig');
+    }
 }
