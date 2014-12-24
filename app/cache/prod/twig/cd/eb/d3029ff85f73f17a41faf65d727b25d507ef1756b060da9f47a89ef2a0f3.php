@@ -19,11 +19,11 @@ class __TwigTemplate_cdebd3029ff85f73f17a41faf65d727b25d507ef1756b060da9f47a89ef
     {
         // line 1
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 7
+        // line 6
         echo twig_include($this->env, $context, "TMSUserJoinPageBundle:User:header.html.twig");
         echo "    
 ";
-        // line 8
+        // line 7
         $this->displayBlock('body', $context, $blocks);
     }
 
@@ -32,27 +32,23 @@ class __TwigTemplate_cdebd3029ff85f73f17a41faf65d727b25d507ef1756b060da9f47a89ef
     {
         // line 2
         echo "\t<link rel=\"stylesheet\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/main.css"), "html", null, true);
-        echo "\" type=\"text/css\" media=\"all\" />
-\t<link rel=\"stylesheet\" href=\"";
-        // line 3
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/bootstrap.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 \t<link rel=\"stylesheet\" href=\"";
-        // line 4
+        // line 3
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/bootstrap-theme.min.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 \t<link rel=\"stylesheet\" href=\"";
-        // line 5
+        // line 4
         echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/css/theme.css"), "html", null, true);
         echo "\" type=\"text/css\" media=\"all\" />
 ";
     }
 
-    // line 8
+    // line 7
     public function block_body($context, array $blocks = array())
     {
-        // line 10
+        // line 9
         echo "<div id=\"displayed\"><div class=\"container theme-showcase\" id=\"mainDiv\"><style type=\"text/css\">
     body{
         background-repeat: no-repeat;
@@ -104,6 +100,10 @@ class __TwigTemplate_cdebd3029ff85f73f17a41faf65d727b25d507ef1756b060da9f47a89ef
                 </div>
             </div>
         </div>
+        ";
+        // line 60
+        echo twig_include($this->env, $context, "TMSUserJoinPageBundle:User:footer_static.html.twig");
+        echo "  
 </div></div></div>
     ";
     }
@@ -120,6 +120,6 @@ class __TwigTemplate_cdebd3029ff85f73f17a41faf65d727b25d507ef1756b060da9f47a89ef
 
     public function getDebugInfo()
     {
-        return array (  56 => 10,  53 => 8,  47 => 5,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 8,  23 => 7,  21 => 1,);
+        return array (  105 => 60,  52 => 9,  49 => 7,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 7,  23 => 6,  21 => 1,);
     }
 }

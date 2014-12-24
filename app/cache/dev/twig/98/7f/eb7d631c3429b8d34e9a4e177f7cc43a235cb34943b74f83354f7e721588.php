@@ -69,7 +69,7 @@ class __TwigTemplate_987feb7d631c3429b8d34e9a4e177f7cc43a235cb34943b74f83354f7e7
         <br>
 \t  <form action=\"";
         // line 21
-        echo $this->env->getExtension('routing')->getPath("tms_user_create");
+        echo $this->env->getExtension('routing')->getPath("user_create");
         echo "\" method=\"post\" ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'enctype');
         echo ">

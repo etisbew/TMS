@@ -16,7 +16,7 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"navbar navbar-inverse navbar-fixed-bottom\" style=\"/*background-image: url('Blog/images/background-nav-botton.png'); */background-size: 100px 66px;\">
+        echo "<div class=\"navbar navbar-inverse navbar-fixed-bottom\" style=\"background-size: 100px 66px;\">
             <a href=\"../../prototype-player-flat/prototypes/index.html#MediaPlayer_FeaturedMusic\" class=\"open_player_link hidden-xs\">Open Player</a>
             <div class=\"container site_footer_bar\">
                 <div class=\"navbar-collapse collapse player_slider_navbar  visible-xs\">
@@ -50,7 +50,10 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
                                                 </div>
                                             </div>
                                             <div class=\"col-xs-6 col-xxs-12 hidden-xxs\">
-                                                <img class=\"img-responsive\" src=\"http://localhost/musicsite/web/bundles/msms/images/fmusic5.jpg\">
+                                                <img class=\"img-responsive\" src=\"";
+        // line 35
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/fmusic5.jpg"), "html", null, true);
+        echo "\">
                                                 <br>
                                                 <div class=\"col-xs-12 white text-center\">
                                                     <div><a href=\"../../prototype-music-module-flat/prototypes/index.html#View_Music_Page\" class=\"white\">Track Name</a></div>
@@ -211,9 +214,18 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
                 </div>
                 <div class=\"navbar-header text-center\">
                     <span class=\"player_button_container mobile\">
-                        <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_prev.png\" alt=\"\" height=\"18\"></a>
-                        <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_play.png\" alt=\"\" height=\"25\"></a>
-                        <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_next.png\" alt=\"\" height=\"18\"></a>
+                        <a href=\"#\"><img src=\"";
+        // line 196
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_prev.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"18\"></a>
+                        <a href=\"#\"><img src=\"";
+        // line 197
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_play.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"25\"></a>
+                        <a href=\"#\"><img src=\"";
+        // line 198
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_next.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"18\"></a>
                     </span>
                     <button type=\"button\" class=\"navbar-toggle player_bottom_menu_icon\" data-toggle=\"collapse\" data-target=\"#player_slider_menu\">
                         <span class=\"icon-bar\"></span>
@@ -227,23 +239,41 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
                         <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center\">
                             <ul class=\"player_container\" style=\"display: inline-block; padding-left: 0px;\">
                                 <li class=\"player_button_container  text-right text-center-xs\">
-                                    <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_prev.png\" alt=\"\" height=\"18\"></a>
-                                    <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_play.png\" alt=\"\" height=\"25\"></a>
-                                    <a href=\"#\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/player_next.png\" alt=\"\" height=\"18\"></a>
+                                    <a href=\"#\"><img src=\"";
+        // line 212
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_prev.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"18\"></a>
+                                    <a href=\"#\"><img src=\"";
+        // line 213
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_play.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"25\"></a>
+                                    <a href=\"#\"><img src=\"";
+        // line 214
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_next.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"18\"></a>
                                 </li>
                                 <li class=\"player_art_container hidden-xs\">
-                                    <a href=\"../../prototype-music-module-flat/prototypes/index.html#View_Music_Page\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/played-song-pic.png\" alt=\"\"></a>
+                                    <a href=\"../../prototype-music-module-flat/prototypes/index.html#View_Music_Page\"><img src=\"";
+        // line 217
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/played-song-pic.png"), "html", null, true);
+        echo "\" alt=\"\"></a>
                                 </li>
                                 <li class=\"player_song_details hidden-xs\">
                                     <div class=\"row\">
                                         <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">
-                                            <img src=\"http://localhost/musicsite/web/bundles/msms/images/music-small.png\" alt=\"\">
+                                            <img src=\"";
+        // line 222
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/music-small.png"), "html", null, true);
+        echo "\" alt=\"\">
                                             <a href=\"../../prototype-music-module-flat/prototypes/index.html#View_Music_Page\" class=\"white\">Song Title</a>
                                         </div>
                                     </div>
                                     <div class=\"row\">
                                         <div class=\"col-lg-12 col-md-12 col-sm-12 col-xs-12\">
-                                            <img src=\"http://localhost/musicsite/web/bundles/msms/images/people-small.png\">
+                                            <img src=\"";
+        // line 228
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/people-small.png"), "html", null, true);
+        echo "\">
                                             <a href=\"../../prototype-general-flat/prototypes/index.html#Profile_PromoCover_Picture\" class=\"grey\">Artist Name</a>, <a href=\"../../prototype-general-flat/prototypes/index.html#Profile_PromoCover_Picture\" class=\"grey\">Featured Artist</a>
                                         </div>
                                     </div>
@@ -260,11 +290,17 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
                                     <div class=\"row\">
                                         <div class=\"player_control_icons grey\">
                                             <a href=\"javascript:void(0)\" class=\"whiteLink\">
-                                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/player_shuffle_icon.png\" alt=\"\">
+                                                <img src=\"";
+        // line 245
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_shuffle_icon.png"), "html", null, true);
+        echo "\" alt=\"\">
                                             </a>
                                             &nbsp;
                                             <a href=\"#\" data-position=\"top\" data-toggle=\"dropdown\" class=\"whiteLink player_bar_plus_btn dropdown-toggle dropup\">
-                                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/player_plus_icon.png\" alt=\"\" height=\"17\">
+                                                <img src=\"";
+        // line 249
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_plus_icon.png"), "html", null, true);
+        echo "\" alt=\"\" height=\"17\">
                                             </a>
                                             <ul class=\"dropdown-menu player_bar_plus_dd pull-right player_action_dropdown\" role=\"menu\">
                                                 <li class=\"\" style=\"background-color:#000;\">&nbsp;</li>
@@ -277,11 +313,17 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
                                             </ul>
                                             &nbsp;
                                             <a href=\"javascript:void(0)\" class=\"whiteLink\">
-                                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/player_list_icon.png\" alt=\"\">
+                                                <img src=\"";
+        // line 262
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_list_icon.png"), "html", null, true);
+        echo "\" alt=\"\">
                                             </a>
                                             &nbsp;
                                             <a href=\"javascript:void(0)\" class=\"whiteLink volume_icon\">
-                                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/player_volume1_icon.png\" alt=\"\">
+                                                <img src=\"";
+        // line 266
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/player_volume1_icon.png"), "html", null, true);
+        echo "\" alt=\"\">
                                             </a>
                                         </div>
                                     </div>
@@ -304,8 +346,13 @@ class __TwigTemplate_f2756267fd0f120b75ecedb1e681555b26037cb48a82f212966462ed2d0
         return "TMSUserJoinPageBundle:User:footer.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  325 => 266,  318 => 262,  302 => 249,  295 => 245,  275 => 228,  266 => 222,  258 => 217,  252 => 214,  248 => 213,  244 => 212,  227 => 198,  223 => 197,  219 => 196,  55 => 35,  19 => 1,);
     }
 }
