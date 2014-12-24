@@ -100,6 +100,10 @@ class __TwigTemplate_bdb2ff4a27049a39be12db65b1111ed6a49067825855cefdd4467b10a1a
                 </div>
             </div>
         </div>
+\t\t";
+        // line 60
+        echo twig_include($this->env, $context, "TMSUserJoinPageBundle:User:footer_static.html.twig");
+        echo "  
 </div></div></div>
     ";
     }
@@ -116,6 +120,6 @@ class __TwigTemplate_bdb2ff4a27049a39be12db65b1111ed6a49067825855cefdd4467b10a1a
 
     public function getDebugInfo()
     {
-        return array (  52 => 9,  49 => 7,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 7,  23 => 6,  21 => 1,);
+        return array (  105 => 60,  52 => 9,  49 => 7,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 7,  23 => 6,  21 => 1,);
     }
 }

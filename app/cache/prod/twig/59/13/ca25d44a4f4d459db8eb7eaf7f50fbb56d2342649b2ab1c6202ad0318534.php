@@ -165,7 +165,7 @@ class __TwigTemplate_5913ca25d44a4f4d459db8eb7eaf7f50fbb56d2342649b2ab1c6202ad03
             <div class=\"row\">
                 <a href=\"";
         // line 113
-        echo $this->env->getExtension('routing')->getPath("tms_user_new");
+        echo $this->env->getExtension('routing')->getPath("user_new");
         echo "\"><div class=\"col-md-8 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-3 text-center-xs\">            
                     <button class=\"btn btn-success create_profile_btn\" onclick=\"window.open('../../prototype-general-flat/prototypes/index.html#Welcome_Step_1','_self')\">&nbsp;Create a FREE Profile&nbsp;</button>
                 </div></a>
@@ -189,12 +189,30 @@ class __TwigTemplate_5913ca25d44a4f4d459db8eb7eaf7f50fbb56d2342649b2ab1c6202ad03
                     <hr style=\"border-bottom:1px solid #666;\">
                     <div class=\"row\">
                         <ul class=\"tms_list\">
-                            <li><a href=\"../../prototype-general-flat/prototypes/index.html#Privacy_Policy_Page\">Privacy Policy</a></li>
-                            <li><a href=\"../../prototype-general-flat/prototypes/index.html#Terms_and_Conditions_Page\">Terms &amp; Conditions</a></li>
-                            <li><a href=\"../../prototype-general-flat/prototypes/index.html#JobOpportunities_Overview\">Job Opps</a></li>
-                            <li><a href=\"../../prototype-general-flat/prototypes/index.html#Invite_a_Friend_Pop_Up\">Invite a Friend</a></li>
-                            <li><a href=\"../../prototype-general-flat/prototypes/index.html#Contact_Us_Page\">Contact Us</a></li>
-                            <li><a href=\"../../prototype-advertising-flat/prototypes/index.html#Advertise_Home\">Advertise</a></li>
+                            <li><a href=\"";
+        // line 136
+        echo $this->env->getExtension('routing')->getPath("privacypolicy");
+        echo "\">Privacy Policy</a></li>
+                            <li><a href=\"";
+        // line 137
+        echo $this->env->getExtension('routing')->getPath("termsconditions");
+        echo "\">Terms &amp; Conditions</a></li>
+                            <li><a href=\"";
+        // line 138
+        echo $this->env->getExtension('routing')->getPath("jobopportunities");
+        echo "\">Job Opps</a></li>
+                            <li><a href=\"";
+        // line 139
+        echo $this->env->getExtension('routing')->getPath("invite_a_friend");
+        echo "\">Invite a Friend</a></li>
+                            <li><a href=\"";
+        // line 140
+        echo $this->env->getExtension('routing')->getPath("contact_us");
+        echo "\">Contact Us</a></li>
+                            <li><a href=\"";
+        // line 141
+        echo $this->env->getExtension('routing')->getPath("advertise");
+        echo "\">Advertise</a></li>
                         </ul>
                     </div>
                 </div>
@@ -232,6 +250,6 @@ class __TwigTemplate_5913ca25d44a4f4d459db8eb7eaf7f50fbb56d2342649b2ab1c6202ad03
 
     public function getDebugInfo()
     {
-        return array (  218 => 160,  168 => 113,  155 => 103,  118 => 69,  56 => 9,  53 => 8,  47 => 5,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 8,  23 => 7,  21 => 1,);
+        return array (  236 => 160,  214 => 141,  210 => 140,  206 => 139,  202 => 138,  198 => 137,  194 => 136,  168 => 113,  155 => 103,  118 => 69,  56 => 9,  53 => 8,  47 => 5,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 8,  23 => 7,  21 => 1,);
     }
 }

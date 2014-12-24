@@ -221,7 +221,7 @@ class __TwigTemplate_695b63a55c0ffb89d98d435944a983ac67bd77082e510988ef3a9f2a5e1
     <li>
         <a href=\"";
         // line 118
-        echo $this->env->getExtension('routing')->getPath("tms_user");
+        echo $this->env->getExtension('routing')->getPath("user");
         echo "\">
             Back to the list
         </a>
@@ -229,7 +229,7 @@ class __TwigTemplate_695b63a55c0ffb89d98d435944a983ac67bd77082e510988ef3a9f2a5e1
     <li>
         <a href=\"";
         // line 123
-        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("tms_user_edit", array("id" => $this->getAttribute((isset($context["entity"]) ? $context["entity"] : null), "id", array()))), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("user_edit", array("id" => $this->getAttribute((isset($context["entity"]) ? $context["entity"] : null), "id", array()))), "html", null, true);
         echo "\">
             Edit
         </a>

@@ -146,7 +146,7 @@ class __TwigTemplate_57b12391381dbcbcb34435861bcb9e0ce093a6785166086a2aaaa032ae1
 </style>
 <div class=\"row\">
     <div class=\"col-sm-8 col-sm-offset-2\">
-        <p>          At TheMusicSite.com  we’re committed to ensuring and protecting your privacy at any time you are on  our website or communicate electronically with our personnel&nbsp;<br>
+        <p>          At TheMusicSite.com  we're committed to ensuring and protecting your privacy at any time you are on  our website or communicate electronically with our personnel&nbsp;<br>
           <br>
           Our Privacy Policy is detailed below and contains explanations as to how we may  use your personal information provided to us or any we collect through legal  means.&nbsp;<br>
   <br>
@@ -172,7 +172,7 @@ class __TwigTemplate_57b12391381dbcbcb34435861bcb9e0ce093a6785166086a2aaaa032ae1
   <br>
           Cookies are used to collect general online usage by using a cookie file.&nbsp;  If used this cookie file is downloaded without prompting.&nbsp; It will be  placed on your hard drive with information transferred to the hard drive  allowing the cookies to be used for data collection.&nbsp; A cookie is used to  improve any services/ products, or overall website characteristic we offer you.&nbsp;<br>
   <br>
-          Any computer has the option to decline cookies.&nbsp; Your web browser options  include an “enable” button to decline cookies.&nbsp; It is imperative that you  understand by declining cookies you may be limiting your access to sections of  our website.&nbsp;<br>
+          Any computer has the option to decline cookies.&nbsp; Your web browser options  include an \"enable\" button to decline cookies.&nbsp; It is imperative that you  understand by declining cookies you may be limiting your access to sections of  our website.&nbsp;<br>
   <br>
           If our advertisers use cookies it will result only from a click on their advertisement, and we do  not have control over their cookies if used. &nbsp;<br>
   <br>
@@ -238,7 +238,7 @@ class __TwigTemplate_57b12391381dbcbcb34435861bcb9e0ce093a6785166086a2aaaa032ae1
   <br>
   <strong>9. Editing or deleting  your account information</strong>&nbsp;<br>
   <br>
-          Our site provides you with the ability to edit the information in your user  account that you provided to during the registration process. You may request  deletion of your user account by sending an email to <a href=\"mailto:admin@themusicsite.com\">admin@themusicsite.com</a>&nbsp;Content  or other information that you may have provided, and that is not contained  within your user account, such as posts that may appear within site forums, may  continue to remain on the site at TheMusicSite.com’s discretion, even though  your user account is deleted. Please see the site's&nbsp;<a href=\"http://pitchmystuff.co.uk/terms_of_use.php\">Terms &amp; Conditions</a>&nbsp;for more information.<br>
+          Our site provides you with the ability to edit the information in your user  account that you provided to during the registration process. You may request  deletion of your user account by sending an email to <a href=\"mailto:admin@themusicsite.com\">admin@themusicsite.com</a>&nbsp;Content  or other information that you may have provided, and that is not contained  within your user account, such as posts that may appear within site forums, may  continue to remain on the site at TheMusicSite.com's discretion, even though  your user account is deleted. Please see the site's&nbsp;<a href=\"http://pitchmystuff.co.uk/terms_of_use.php\">Terms &amp; Conditions</a>&nbsp;for more information.<br>
   <br>
   <br>
   <strong>10.&nbsp;Access to Information</strong>&nbsp;<br>
@@ -263,67 +263,11 @@ class __TwigTemplate_57b12391381dbcbcb34435861bcb9e0ce093a6785166086a2aaaa032ae1
 </div>
 </div>
 <br><br></div>
-
-<div style=\"background-color: #e4e4e4;margin-bottom: -8px;\">
-    <div class=\"container\">
-        <div class=\"row\" style=\"padding-top: 10px\">
-            <div class=\"col-xs-12\">
-                <div class=\"col-lg-8 col-md-12 col-sm-12  col-xs-12 form-group\">
-                    <ul class=\"footer_links\">
-                        <li><a href=\"../../prototype-advertising-flat/prototypes/index.html#Advertise_Home\">Advertise</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Privacy_Policy_Page\">Privacy Policy</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Terms_and_Conditions_Page\">Terms &amp; Conditions</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Invite_a_Friend_Pop_Up\">Invite a Friend</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#JobOpportunities_Overview\">Jobs Opps</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Contact_Us_Page\">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class=\"col-lg-4 col-md-4 col-sm-5 col-xs-8 col-xxs-12 pull-right\">
-                    <div class=\"hidden-lg\" style=\"padding-top: 15px;\"></div>
-                    <div>Subscribe to updates from themusicsite.com</div>
-                    <div class=\"form-group\">
-                        <form role=\"search\">
-                            <div class=\"input-group\">
-                                <input type=\"text\" class=\"form-control\" placeholder=\"Enter your email...\">
-                                        <span class=\"input-group-btn\">
-                                            <button class=\"btn btn-success\" type=\"button\">Subscribe!</button>
-                                        </span>
-                            </div><!-- /input-group -->
-                        </form>
-                    </div>
-                    <ul class=\"footer_social_icons visible-xs\">
-                        <li><a href=\"https://twitter.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/tweet_icon.png\"></a></li>
-                        <li><a href=\"https://www.facebook.com/TheMusicSitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/fb_icon.png\"></a></li>
-                        <li><a href=\"http://www.youtube.com/subscription_center?add_user=PitchMyStuff\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/play_icon.png\"></a></li>
-                        <li><a href=\"https://plus.google.com/118156278029274131168/about\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/gplus_icon.png\"></a></li>
-                        <li class=\"social_instagram_icon\"><a href=\"http://instagram.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/instagram_icon.png\"></a></li>
-                        <li class=\"social_p_icon\"><a href=\"http://www.pinterest.com/themusicsite\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/p_icon.png\"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class=\"row form-group\">
-            <div class=\"col-xs-12\">
-                <div class=\"col-lg-8 col-md-8 col-sm-8 col-xs-12 dark_grey\" style=\"padding-top:5px;\">
-                    Copyright © 2014 TheMusicSite.com
-                </div>
-                <div class=\"col-lg-4 col-md-4 col-xs-12\">
-                    <ul class=\"footer_social_icons hidden-xs\">
-                        <li><a href=\"https://twitter.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/tweet_icon.png\"></a></li>
-                        <li><a href=\"https://www.facebook.com/TheMusicSitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/fb_icon.png\"></a></li>
-                        <li><a href=\"http://www.youtube.com/subscription_center?add_user=PitchMyStuff\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/play_icon.png\"></a></li>
-                        <li><a href=\"https://plus.google.com/118156278029274131168/about\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/gplus_icon.png\"></a></li>
-                        <li class=\"social_instagram_icon\"><a href=\"http://instagram.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/instagram_icon.png\"></a></li>
-                        <li class=\"social_p_icon\"><a href=\"http://www.pinterest.com/themusicsite\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/p_icon.png\"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class=\"clearfix\"></div>
-        <div class=\"hidden-xs\" style=\"margin-top: 10px;\"></div>
-    </div>
-</div></div>
+";
+        // line 222
+        echo twig_include($this->env, $context, "TMSUserJoinPageBundle:User:footer_static.html.twig");
+        echo "  
+</div>
 \t\t
 </div></div></div>
     ";
@@ -341,6 +285,6 @@ class __TwigTemplate_57b12391381dbcbcb34435861bcb9e0ce093a6785166086a2aaaa032ae1
 
     public function getDebugInfo()
     {
-        return array (  54 => 10,  51 => 8,  45 => 5,  41 => 4,  37 => 3,  34 => 2,  31 => 1,  27 => 8,  23 => 7,  21 => 1,);
+        return array (  268 => 222,  54 => 10,  51 => 8,  45 => 5,  41 => 4,  37 => 3,  34 => 2,  31 => 1,  27 => 8,  23 => 7,  21 => 1,);
     }
 }

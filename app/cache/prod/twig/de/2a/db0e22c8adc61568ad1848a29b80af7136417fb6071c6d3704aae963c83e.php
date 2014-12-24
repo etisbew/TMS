@@ -23,14 +23,20 @@ class __TwigTemplate_de2adb0e22c8adc61568ad1848a29b80af7136417fb6071c6d3704aae96
                     <span class=\"icon-bar\"></span>
                     <span class=\"icon-bar\"></span>
                 </button>
-                <a class=\"navbar-brand\" href=\"../../prototype-general-flat/prototypes/index.html#Member_Homepage\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/logo.png\"> <!--themusicsite <span class=\"comLogo\">.com</span>--></a>
+                <a class=\"navbar-brand\" href=\"../../prototype-general-flat/prototypes/index.html#Member_Homepage\"><img src=\"";
+        // line 8
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/logo.png"), "html", null, true);
+        echo "\"> <!--themusicsite <span class=\"comLogo\">.com</span>--></a>
             </div>
             <div class=\"navbar-collapse collapse menu1\" data-target=\".menu1\">
                 <form class=\"navbar-form navbar-left\" role=\"search\">
                     <div class=\"form-group\" style=\"position: relative;\">
                         <input type=\"text\" class=\"form-control input-sm\" id=\"header_search_bar\" placeholder=\"Search\">
                         <span class=\"header_search_icon\">
-                            <a href=\"../../prototype-search-module-flat/prototypes/index.html#Site_Search_Homepage\"><img src=\"http://localhost/musicsite/web/bundles/msms/images/toolbar_find.png\" alt=\"\"></a>
+                            <a href=\"../../prototype-search-module-flat/prototypes/index.html#Site_Search_Homepage\"><img src=\"";
+        // line 15
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/toolbar_find.png"), "html", null, true);
+        echo "\" alt=\"\"></a>
                         </span>
                     </div>
                 </form>
@@ -93,7 +99,10 @@ class __TwigTemplate_de2adb0e22c8adc61568ad1848a29b80af7136417fb6071c6d3704aae96
                     <li class=\"header_icons header_dropdown_links\">
                         <a href=\"../../prototype-general-flat/prototypes/index.html#View_All_Notifications\" class=\"header_icons\">
                             <span class=\"hidden-xs\">
-                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/bell_icon-active.png\" alt=\"\">
+                                <img src=\"";
+        // line 78
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/bell_icon-active.png"), "html", null, true);
+        echo "\" alt=\"\">
                             </span>
                             <span class=\"visible-xs\">Notifications</span>
                         </a>
@@ -101,7 +110,10 @@ class __TwigTemplate_de2adb0e22c8adc61568ad1848a29b80af7136417fb6071c6d3704aae96
                     <li class=\"header_icons\">
                          <a href=\"../../prototype-mailbox-module-flat/prototypes/index.html#Mailbox_Page_NewMessage\" class=\"header_icons\">
                             <span class=\"hidden-xs\">
-                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/email_icon.png\" alt=\"\">
+                                <img src=\"";
+        // line 86
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/email_icon.png"), "html", null, true);
+        echo "\" alt=\"\">
                             </span>
                             <span class=\"visible-xs\">Mailbox</span>
                         </a>
@@ -109,7 +121,10 @@ class __TwigTemplate_de2adb0e22c8adc61568ad1848a29b80af7136417fb6071c6d3704aae96
                     <li class=\"dropdown header_icons header_dropdown_links\">
                         <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
                             <span class=\"hidden-xs\">
-                                <img src=\"http://localhost/musicsite/web/bundles/msms/images/settings_icon.png\" alt=\"\">
+                                <img src=\"";
+        // line 94
+        echo twig_escape_filter($this->env, $this->env->getExtension('assets')->getAssetUrl("bundles/tmsuserjoinpage/images/settings_icon.png"), "html", null, true);
+        echo "\" alt=\"\">
                             </span>
                             <span class=\"visible-xs\">Account
                                 <b class=\"caret\"></b>
@@ -135,8 +150,13 @@ class __TwigTemplate_de2adb0e22c8adc61568ad1848a29b80af7136417fb6071c6d3704aae96
         return "TMSUserJoinPageBundle:User:header.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  126 => 94,  115 => 86,  104 => 78,  38 => 15,  28 => 8,  19 => 1,);
     }
 }

@@ -165,7 +165,7 @@ class __TwigTemplate_5913ca25d44a4f4d459db8eb7eaf7f50fbb56d2342649b2ab1c6202ad03
             <div class=\"row\">
                 <a href=\"";
         // line 113
-        echo $this->env->getExtension('routing')->getPath("tms_user_new");
+        echo $this->env->getExtension('routing')->getPath("user_new");
         echo "\"><div class=\"col-md-8 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-3 text-center-xs\">            
                     <button class=\"btn btn-success create_profile_btn\" onclick=\"window.open('../../prototype-general-flat/prototypes/index.html#Welcome_Step_1','_self')\">&nbsp;Create a FREE Profile&nbsp;</button>
                 </div></a>

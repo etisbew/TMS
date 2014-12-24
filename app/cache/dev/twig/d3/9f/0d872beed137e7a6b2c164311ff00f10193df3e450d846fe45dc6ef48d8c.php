@@ -145,11 +145,11 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
     <div class=\"col-sm-8 col-sm-offset-2\">
         <p>This  Agreement is between You and The Music Site Ltd a UK Registered Company (formerly  PitchMyStuff Ltd) By creating an account on TheMusicSite.com website you are  deemed to accept and agree and be bound by the terms and conditions  herein.&nbsp;</p>
         <p><strong><u>Definitions.</u></strong>&nbsp;<br>
-          The terms “You” and “Your” shall mean the individual or entity that has  registered as a user of TheMusicSite.com website.&nbsp;</p>
-        <p>The  terms “We” “Us” “Our” \"the Company\" and “TheMusicSite.com” shall mean  the company TheMusicSite Ltd as owner and provider of the website www.TheMusicSite.com</p>
-        <p>The  term “Agreement” shall mean this document and all details contained within and  shall constitute the contract between You and The Music Site Ltd.</p>
-        <p>The  term “Website” refers to the website www.TheMusicSite.com and includes all/any  such URL’s that The Music Site Ltd may from time to time designate  TheMusicSite.com &nbsp;through the use of this  website along with any other works or data necessary for TheMusicSite.com to  publish, distribute, license or sell or copyright such Works which includes  though not limited to, musical works, written works, spoken word works and  artwork such as album covers and designs.</p>
-        <p>&nbsp;The  term “Retailer” shall mean any entity to whom TheMusicSite.com provides copies  of the Works for the license or sale.</p>
+          The terms \"You\" and \"Your\" shall mean the individual or entity that has  registered as a user of TheMusicSite.com website.&nbsp;</p>
+        <p>The  terms \"We\" \"Us\" \"Our\" \"the Company\" and \"TheMusicSite.com\" shall mean  the company TheMusicSite Ltd as owner and provider of the website www.TheMusicSite.com</p>
+        <p>The  term \"Agreement\" shall mean this document and all details contained within and  shall constitute the contract between You and The Music Site Ltd.</p>
+        <p>The  term \"Website\" refers to the website www.TheMusicSite.com and includes all/any  such URL's that The Music Site Ltd may from time to time designate  TheMusicSite.com &nbsp;through the use of this  website along with any other works or data necessary for TheMusicSite.com to  publish, distribute, license or sell or copyright such Works which includes  though not limited to, musical works, written works, spoken word works and  artwork such as album covers and designs.</p>
+        <p>&nbsp;The  term \"Retailer\" shall mean any entity to whom TheMusicSite.com provides copies  of the Works for the license or sale.</p>
         <p>&nbsp;</p>
         <p><strong><u>Term.</u></strong>&nbsp;<br>
           This Agreement shall commence on the date you first join as a registered member  on the TheMusicSite.com website and shall remain in effect until terminated by  one of the parties according to its terms.&nbsp;</p>
@@ -199,17 +199,19 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
         <p><strong>You  hereby represent and warrant that You:</strong></p>
         <p>are  at least 14 years of age and have full authority to enter into and fully  perform Your obligations detailed within this Agreement</p>
         <p>in  the process of registration and usage of the website, services and facilities  all information provided by You is true, accurate, complete and current and  that you will promptly update your registration information as necessary such  that it remains true, accurate, complete and current</p>
-        <p>own  or have the worldwide rights necessary to enter into this Agreement in  connection with the Works including that You have the necessary and full  authority to act on behalf of any and all owners of any right, title or  interest in and to the Works licenses and authorizations that You are granting  pursuant to this Agreement do not infringe or violate any third party’s  intellectual property or other rights</p>
+        <p>own  or have the worldwide rights necessary to enter into this Agreement in  connection with the Works including that You have the necessary and full  authority to act on behalf of any and all owners of any right, title or  interest in and to the Works licenses and authorizations that You are granting  pursuant to this Agreement do not infringe or violate any third party's  intellectual property or other rights</p>
         <p>will  obtain and pay for any and all clearances and licenses that may be required for  the authorizations or licenses You grant in this Agreement, including without  limitation royalties or other amounts due to third parties such as other  performers, authors or co-authors, owners or co-owners, artists or producers,  license fees, wages and consulting fees</p>
         <p>acknowledge  and agree that you are solely responsible for all materials that you post or  publish on the Website including without limitation information, code, data,  text, software, music, sound, links, photographs, pictures, graphics, video,  chat, messages, files and any other materials</p>
         <p>have  obtained all necessary third-party consents licenses and permissions necessary  to enter into and fully perform Your obligations detailed within this Agreement</p>
         <p>will  not harvest or collect email addresses or other contact information by  electronic or other means for the purposes of sending unsolicited emails or  other unsolicited communications or to use automated scripts to collect  information from the Website</p>
         <p>will  not use the Website in any unlawful manner or in any other manner that could  damage, disable, overburden or impair the Website</p>
-        <p>will  not falsely identify yourself as any other person or entity to or on TheMusicSite.com  or otherwise misrepresent your affiliation with a person or entity, impersonate  another user, forge headers or otherwise manipulate identifiers, including  URLs, or disguise the source or origin of any information. If requested by TheMusicSite.com  You will provide proof such as a copy of a driver’s license passport  identification card or other document deemed acceptable to TheMusicSite.com to  verify Your identity</p>
+        <p>will  not falsely identify yourself as any other person or entity to or on TheMusicSite.com  or otherwise misrepresent your affiliation with a person or entity, impersonate  another user, forge headers or otherwise manipulate identifiers, including  URLs, or disguise the source or origin of any information. If requested by TheMusicSite.com  You will provide proof such as a copy of a driver's license passport  identification card or other document deemed acceptable to TheMusicSite.com to  verify Your identity</p>
         <p>will  not use the Website to upload, post, email, transmit or otherwise make  available any Work that we deem to be harmful, threatening, abusive, harassing,  vulgar, obscene, hateful, or racially, ethnically or otherwise objectionable</p>
         <p>will  not use the Website to upload, post, email, transmit or otherwise make  available any unacceptable, unsolicited or unauthorized advertising,  promotional materials, \"junk mail,\" \"spam,\" \"chain  letters,\" \"pyramid schemes,\" or any other form of solicitation</p>
         <p>will  not use the Website to upload, post, email, transmit or otherwise make  available any material that contains software viruses or any other computer  code, files or programs designed to interrupt, destroy or limit the  functionality of any computer software or hardware or telecommunications  equipment</p>
         <p>will  not use the Website to use or attempt to use another user's account without  authorization from the TheMusicSite.com or create a false identity using the  Services or the Website</p>
+
+
         <p><strong>&nbsp;</strong></p>
         <p><strong>Furthermore  You hereby represent and warrant that You:</strong></p>
         <p>will  use any music files that you download and copy in compliance with the following  Usage Rules...</p>
@@ -222,7 +224,7 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
         <p>Exposure Remuneration (host free of charge) appearance, do agree, as  an artist / creative talent,&nbsp; if so  requested in writing (email included) by Us, to provide TheMusicSite.com with no  less than one exclusive interview (of a period minimum one hour) and /or photo-shoot  (of a period minimum two hours) at our expense, at a suitable and mutually  agreed location.</p>
         <p>agree  that the content of&nbsp; said exclusive  interview and/or photo-shoot, once released by Us may be used by You for your  own purposes provided that any distribution or presentation in any form shall  always include attribution to TheMusicSite.com</p>
         <p>will  comply with all applicable laws, rules and regulations detailed within this Agreement</p>
-        <p>TheMusicSite.com  provides this website together with its services and facilities on an ‘As Is’  basis and cannot make representation or warranty that:</p>
+        <p>TheMusicSite.com  provides this website together with its services and facilities on an 'As Is'  basis and cannot make representation or warranty that:</p>
         <p>the  website services and facilities are appropriate or continuously available for  use in all locations</p>
         <p>access  to or use of the website services and facilities will be at all times  uninterrupted timely secure or error free</p>
         <p>the  website services and facilities will at all times be free of viruses worms  Trojan horses or other items of a damaging or destructive nature</p>
@@ -258,7 +260,7 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
           You  agree to defend, indemnify and hold TheMusicSite.com and its subsidiaries,  affiliates, officers, directors, agents, employees, contractors and  representatives harmless from any claim or demand including reasonable legal  costs and fees made by any third party due to or arising out of your access to  or use of the website, services and facilities including but not limited to any  claim or allegation that Your Works infringed the intellectual property or  other rights of a third party and similarly any claim made by You against a  third party for allegedly infringing Your copyright</p>
         <p>&nbsp;</p>
         <p><strong><u>Age  Restrictions</u></strong> <br>
-          Due  to the possible explicit nature of some of the content of the Website and in  accordance with the&nbsp;<u>‘<a href=\"http://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act\" target=\"_blank\">Childrens Online Privacy Protection  Act 1998</a>’</u>&nbsp;individuals of the age 13 and younger are  prohibited from accessing the Website, services and facilities without  verifiable parental consent which must be provided in hardcopy to TheMusicSite.com  before any such access can be authorized.</p>
+          Due  to the possible explicit nature of some of the content of the Website and in  accordance with the&nbsp;<u>'<a href=\"http://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act\" target=\"_blank\">Childrens Online Privacy Protection  Act 1998</a>'</u>&nbsp;individuals of the age 13 and younger are  prohibited from accessing the Website, services and facilities without  verifiable parental consent which must be provided in hardcopy to TheMusicSite.com  before any such access can be authorized.</p>
         <p>&nbsp;</p>
         <p><strong><u>Dispute  Resolution</u></strong> <br>
           In  the event of any controversy complaint or dispute by any party arising in  connection with this agreement notification must be sent promptly by email to  the registered email address for all parties involved detailing the full nature  of such controversy complaint or dispute. Any dispute which cannot be resolved  by negotiation shall be passed for mediation in accordance with&nbsp;<a href=\"http://www.cedr.com/solve/\" target=\"_blank\">Model Mediation Procedure</a>&nbsp;of the&nbsp;<a href=\"http://www.cedr.com/solve/\" target=\"_blank\">Centre for Effective Dispute Resolution</a>. Any such controversy or  claim shall be arbitrated on an individual basis and shall not be consolidated  in any arbitration with any claim or controversy of any other party, shall be  private, and shall not have preclusive effect in any proceeding involving other  parties. All parties consent to venue and jurisdiction in the English courts  for purposes of such action.&nbsp;</p>
@@ -280,7 +282,7 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
           Nothing  in this Agreement shall create or be deemed to create a partnership or joint  venture or relationship of employer and employee or principal and agent between  the Parties. You and TheMusicSite.com are independent parties and no  partnership, joint venture, employee-employer or franchiser-franchisee  relationship is intended or created by this Agreement.</p>
         <p>&nbsp;</p>
         <p><strong><u>Non-Solicitation.</u></strong> <br>
-          During  the term of this agreement and for a period of 24 months after termination  neither party shall solicit any employee engaged in connection with the  provision of the service(s) under this agreement without the other party’s  prior written consent.</p>
+          During  the term of this agreement and for a period of 24 months after termination  neither party shall solicit any employee engaged in connection with the  provision of the service(s) under this agreement without the other party's  prior written consent.</p>
         <p>&nbsp;</p>
         <p><strong><u>Force  Majeure.</u></strong> <br>
           TheMusicSite.com  shall not be held in breach of this agreement for failure to performance the  duties and obligations under this agreement when occasioned by an event of  force majeure including but not exclusively an act of God, fire, act of  government or state, war, terrorism, civil commotion, insurrection, embargo,  prevention from or hindrance in obtaining raw materials energy or other  supplies, labour disputes of third parties of whatever nature and any other  reason beyond its control.</p>
@@ -289,73 +291,17 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
           This  agreement shall be governed and construed according to English Law</p>
         <p>&nbsp;</p>
         <p><strong><u>Miscellaneous.</u></strong> <br>
-          If  any provision of this Agreement is held to be invalid or unenforceable it shall  be struck and the remaining provisions shall be enforced. TheMusicSite.com’s failure  to act with respect to a breach by You or others does not waive Our right to  act with respect to subsequent or similar breaches.</p>
+          If  any provision of this Agreement is held to be invalid or unenforceable it shall  be struck and the remaining provisions shall be enforced. TheMusicSite.com's failure  to act with respect to a breach by You or others does not waive Our right to  act with respect to subsequent or similar breaches.</p>
         <p>This  Agreement sets forth the entire understanding and agreement between the parties  with respect to its subject matter.</p>
         <p>Our  website TheMusicSite.com.com is wholly owned by The Music Site Ltd a private  limited company registered in England. </p>
     </div>
 </div>
 <br><br></div>
-
-<div style=\"background-color: #e4e4e4;margin-bottom: -8px;\">
-    <div class=\"container\">
-        <div class=\"row\" style=\"padding-top: 10px\">
-            <div class=\"col-xs-12\">
-                <div class=\"col-lg-8 col-md-12 col-sm-12  col-xs-12 form-group\">
-                    <ul class=\"footer_links\">
-                        <li><a href=\"../../prototype-advertising-flat/prototypes/index.html#Advertise_Home\">Advertise</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Privacy_Policy_Page\">Privacy Policy</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Terms_and_Conditions_Page\">Terms &amp; Conditions</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Invite_a_Friend_Pop_Up\">Invite a Friend</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#JobOpportunities_Overview\">Jobs Opps</a></li>
-                        <li><a href=\"../../prototype-general-flat/prototypes/index.html#Contact_Us_Page\">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class=\"col-lg-4 col-md-4 col-sm-5 col-xs-8 col-xxs-12 pull-right\">
-                    <div class=\"hidden-lg\" style=\"padding-top: 15px;\"></div>
-                    <div>Subscribe to updates from themusicsite.com</div>
-                    <div class=\"form-group\">
-                        <form role=\"search\">
-                            <div class=\"input-group\">
-                                <input type=\"text\" class=\"form-control\" placeholder=\"Enter your email...\">
-                                        <span class=\"input-group-btn\">
-                                            <button class=\"btn btn-success\" type=\"button\">Subscribe!</button>
-                                        </span>
-                            </div><!-- /input-group -->
-                        </form>
-                    </div>
-                    <ul class=\"footer_social_icons visible-xs\">
-                        <li><a href=\"https://twitter.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/tweet_icon.png\"></a></li>
-                        <li><a href=\"https://www.facebook.com/TheMusicSitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/fb_icon.png\"></a></li>
-                        <li><a href=\"http://www.youtube.com/subscription_center?add_user=PitchMyStuff\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/play_icon.png\"></a></li>
-                        <li><a href=\"https://plus.google.com/118156278029274131168/about\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/gplus_icon.png\"></a></li>
-                        <li class=\"social_instagram_icon\"><a href=\"http://instagram.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/instagram_icon.png\"></a></li>
-                        <li class=\"social_p_icon\"><a href=\"http://www.pinterest.com/themusicsite\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/p_icon.png\"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class=\"row form-group\">
-            <div class=\"col-xs-12\">
-                <div class=\"col-lg-8 col-md-8 col-sm-8 col-xs-12 dark_grey\" style=\"padding-top:5px;\">
-                    Copyright © 2014 TheMusicSite.com
-                </div>
-                <div class=\"col-lg-4 col-md-4 col-xs-12\">
-                    <ul class=\"footer_social_icons hidden-xs\">
-                        <li><a href=\"https://twitter.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/tweet_icon.png\"></a></li>
-                        <li><a href=\"https://www.facebook.com/TheMusicSitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/fb_icon.png\"></a></li>
-                        <li><a href=\"http://www.youtube.com/subscription_center?add_user=PitchMyStuff\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/play_icon.png\"></a></li>
-                        <li><a href=\"https://plus.google.com/118156278029274131168/about\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/gplus_icon.png\"></a></li>
-                        <li class=\"social_instagram_icon\"><a href=\"http://instagram.com/themusicsitecom\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/instagram_icon.png\"></a></li>
-                        <li class=\"social_p_icon\"><a href=\"http://www.pinterest.com/themusicsite\" target=\"_blank\"><img class=\"img-responsive\" src=\"images/p_icon.png\"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class=\"clearfix\"></div>
-        <div class=\"hidden-xs\" style=\"margin-top: 10px;\"></div>
-    </div>
-</div></div>
+";
+        // line 257
+        echo twig_include($this->env, $context, "TMSUserJoinPageBundle:User:footer_static.html.twig");
+        echo "  
+</div>
 </div></div></div>
     ";
     }
@@ -372,6 +318,6 @@ class __TwigTemplate_d39f0d872beed137e7a6b2c164311ff00f10193df3e450d846fe45dc6ef
 
     public function getDebugInfo()
     {
-        return array (  52 => 9,  49 => 7,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 7,  23 => 6,  21 => 1,);
+        return array (  302 => 257,  52 => 9,  49 => 7,  43 => 4,  39 => 3,  34 => 2,  31 => 1,  27 => 7,  23 => 6,  21 => 1,);
     }
 }
