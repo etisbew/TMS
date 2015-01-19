@@ -19,6 +19,18 @@ class UserType
      */
     private $name;
 
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $user;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->user = new \Doctrine\Common\Collections\ArrayCollection();
+    }
 
     /**
      * Get id
@@ -52,7 +64,40 @@ class UserType
     {
         return $this->name;
     }
-	public function __toString()
+
+    /**
+     * Add user
+     *
+     * @param \TMS\UserJoinPageBundle\Entity\User $user
+     * @return UserType
+     */
+    public function addUser(\TMS\UserJoinPageBundle\Entity\User $user)
+    {
+        $this->user[] = $user;
+    
+        return $this;
+    }
+
+    /**
+     * Remove user
+     *
+     * @param \TMS\UserJoinPageBundle\Entity\User $user
+     */
+    public function removeUser(\TMS\UserJoinPageBundle\Entity\User $user)
+    {
+        $this->user->removeElement($user);
+    }
+
+    /**
+     * Get user
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
+		public function __toString()
 	{
 		return $this->getName() ? $this->getName() : "";
 	}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\xampp\xampp\htdocs\Music_site\src\TMS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">D:\xampp\xampp\htdocs\Music_site\src\TMS</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserJoinPageBundle/Admin/ForgotPwd.php.html#10">ForgotPwd</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#10">Usertypemenu</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#13">UserAdmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserTypeAdmin.php.html#11">UserTypeAdmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Form/UserType_org.php.html#9">UserType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#8">UserAdminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#10">Menu</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#10">Submenu</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/DefaultController.php.html#7">DefaultController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#12">MenuAdmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Form/AuthorsType.php.html#9">AuthorsType</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/UsertypemenuAdmin.php.html#11">UsertypemenuAdmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#12">SubmenuAdmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#15">UserController</a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#15">AuthorsController</a></td><td class="text-right">5%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#10">User</a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#10">Authors</a></td><td class="text-right">61%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#15">UserController</a></td><td class="text-right">767</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#10">User</a></td><td class="text-right">263</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#15">AuthorsController</a></td><td class="text-right">258</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#10">Submenu</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#10">Menu</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#8">UserAdminController</a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#12">MenuAdmin</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#12">SubmenuAdmin</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#13">UserAdmin</a></td><td class="text-right">90</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#158"><abbr title="UserController::updateAction">updateAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#188"><abbr title="UserController::deleteAction">deleteAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#215"><abbr title="UserController::createDeleteForm">createDeleteForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#143"><abbr title="UserController::createEditForm">createEditForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#116"><abbr title="UserController::editAction">editAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#79"><abbr title="UserController::newAction">newAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#94"><abbr title="UserController::showAction">showAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#225"><abbr title="UserController::forgotpwdAction">forgotpwdAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#238"><abbr title="UserController::loadUserByUsername">loadUserByUsername</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#287"><abbr title="UserController::InviteAFriendAction">InviteAFriendAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#291"><abbr title="UserController::ContactUsAction">ContactUsAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#283"><abbr title="UserController::JobOpportunitiesAction">JobOpportunitiesAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#279"><abbr title="UserController::TermsConditionsAction">TermsConditionsAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#249"><abbr title="UserController::UserLoginAction">UserLoginAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#275"><abbr title="UserController::PrivacyPolicyAction">PrivacyPolicyAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#63"><abbr title="UserController::createCreateForm">createCreateForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#36"><abbr title="UserController::createAction">createAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#20"><abbr title="UserAdmin::configureFormFields">configureFormFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#51"><abbr title="UserAdmin::configureDatagridFilters">configureDatagridFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#82"><abbr title="UserAdmin::configureListFields">configureListFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/ForgotPwd.php.html#56"><abbr title="ForgotPwd::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/ForgotPwd.php.html#46"><abbr title="ForgotPwd::setDefaultOptions">setDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#79"><abbr title="Usertypemenu::getMenu">getMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/ForgotPwd.php.html#16"><abbr title="ForgotPwd::buildForm">buildForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#113"><abbr title="UserAdmin::configureShowField">configureShowField</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#145"><abbr title="UserAdmin::getBatchActions">getBatchActions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#36"><abbr title="UserAdminController::batchActionDeleteNeverActivatedIsRelevant">batchActionDeleteNeverActivatedIsRelevant</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#41"><abbr title="UserAdminController::batchActionDeleteNeverActivated">batchActionDeleteNeverActivated</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#10"><abbr title="UserAdminController::batchActionExtend">batchActionExtend</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserTypeAdmin.php.html#33"><abbr title="UserTypeAdmin::configureListFields">configureListFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserTypeAdmin.php.html#19"><abbr title="UserTypeAdmin::configureFormFields">configureFormFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserTypeAdmin.php.html#26"><abbr title="UserTypeAdmin::configureDatagridFilters">configureDatagridFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#295"><abbr title="UserController::AdvertiseAction">AdvertiseAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#148"><abbr title="User::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#654"><abbr title="User::getIdPaypal">getIdPaypal</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#677"><abbr title="User::getIdMedia">getIdMedia</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#700"><abbr title="User::getRecordLabel">getRecordLabel</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#631"><abbr title="User::getMyspaceUrl">getMyspaceUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#608"><abbr title="User::getYoutubeUrl">getYoutubeUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#562"><abbr title="User::getFacebookUrl">getFacebookUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#585"><abbr title="User::getTwitterUrl">getTwitterUrl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#723"><abbr title="User::getIdMusicGenre">getIdMusicGenre</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#730"><abbr title="User::setCreatedAtValue">setCreatedAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Form/UserType_org.php.html#49"><abbr title="UserType::setDefaultOptions">setDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Form/UserType_org.php.html#59"><abbr title="UserType::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Form/UserType_org.php.html#15"><abbr title="UserType::buildForm">buildForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#750"><abbr title="User::getUserTypeValues">getUserTypeValues</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#740"><abbr title="User::setUpdatedAtValue">setUpdatedAtValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#744"><abbr title="User::getUserTypes">getUserTypes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#539"><abbr title="User::getType">getType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#516"><abbr title="User::getDateLastLogin">getDateLastLogin</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#263"><abbr title="User::getEmail">getEmail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#286"><abbr title="User::getPassword">getPassword</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#309"><abbr title="User::getSalt">getSalt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#240"><abbr title="User::getLastName">getLastName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#217"><abbr title="User::getFirstName">getFirstName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#171"><abbr title="User::getUserType">getUserType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#194"><abbr title="User::getNickName">getNickName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#332"><abbr title="User::getStatus">getStatus</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#355"><abbr title="User::getIdChatStatus">getIdChatStatus</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#470"><abbr title="User::getDateOfBirth">getDateOfBirth</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#493"><abbr title="User::getDateReg">getDateReg</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#447"><abbr title="User::getCity">getCity</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#424"><abbr title="User::getCountry">getCountry</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#378"><abbr title="User::getSex">getSex</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#401"><abbr title="User::getDescriptionMe">getDescriptionMe</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#67"><abbr title="Usertypemenu::setMenu">setMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#56"><abbr title="Usertypemenu::getUserType">getUserType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#356"><abbr title="Authors::getPublishedWhen">getPublishedWhen</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#379"><abbr title="Authors::getPublishedWhere">getPublishedWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#402"><abbr title="Authors::getIsbn">getIsbn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#333"><abbr title="Authors::getCompletedYear">getCompletedYear</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#310"><abbr title="Authors::getContribution">getContribution</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#264"><abbr title="Authors::getPseudonymousn">getPseudonymousn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#287"><abbr title="Authors::getPseudonym">getPseudonym</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#425"><abbr title="Authors::getNationality">getNationality</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#448"><abbr title="Authors::getCitizen">getCitizen</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Form/AuthorsType.php.html#51"><abbr title="AuthorsType::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#20"><abbr title="MenuAdmin::configureFormFields">configureFormFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Form/AuthorsType.php.html#41"><abbr title="AuthorsType::setDefaultOptions">setDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Form/AuthorsType.php.html#15"><abbr title="AuthorsType::buildForm">buildForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#459"><abbr title="Authors::setDomicilied">setDomicilied</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#471"><abbr title="Authors::getDomicilied">getDomicilied</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#241"><abbr title="Authors::getAnonymous">getAnonymous</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#218"><abbr title="Authors::getDeadWhen">getDeadWhen</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#143"><abbr title="AuthorsController::createEditForm">createEditForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#158"><abbr title="AuthorsController::updateAction">updateAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#188"><abbr title="AuthorsController::deleteAction">deleteAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#116"><abbr title="AuthorsController::editAction">editAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#94"><abbr title="AuthorsController::showAction">showAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#63"><abbr title="AuthorsController::createCreateForm">createCreateForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#79"><abbr title="AuthorsController::newAction">newAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#215"><abbr title="AuthorsController::createDeleteForm">createDeleteForm</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/DefaultController.php.html#9"><abbr title="DefaultController::indexAction">indexAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#172"><abbr title="Authors::getName">getName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#195"><abbr title="Authors::getDob">getDob</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#149"><abbr title="Authors::getParentSubmission">getParentSubmission</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#126"><abbr title="Authors::getUser">getUser</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/DataFixtures/ORM/LoadAuthorsData.php.html#55"><abbr title="LoadAuthorsData::getOrder">getOrder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Entity/Authors.php.html#103"><abbr title="Authors::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#30"><abbr title="MenuAdmin::configureDatagridFilters">configureDatagridFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#40"><abbr title="MenuAdmin::configureListFields">configureListFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#54"><abbr title="Submenu::setDescription">setDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#66"><abbr title="Submenu::getDescription">getDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#77"><abbr title="Submenu::setHref">setHref</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#43"><abbr title="Submenu::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#139"><abbr title="Menu::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#123"><abbr title="Menu::setAction">setAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#135"><abbr title="Menu::getAction">getAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#89"><abbr title="Submenu::getHref">getHref</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#100"><abbr title="Submenu::setAction">setAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#33"><abbr title="Usertypemenu::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Usertypemenu.php.html#44"><abbr title="Usertypemenu::setUserType">setUserType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#139"><abbr title="Submenu::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#135"><abbr title="Submenu::getMenu">getMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#112"><abbr title="Submenu::getAction">getAction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#123"><abbr title="Submenu::setMenu">setMenu</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#112"><abbr title="Menu::getHref">getHref</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#100"><abbr title="Menu::setHref">setHref</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#42"><abbr title="SubmenuAdmin::configureListFields">configureListFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#53"><abbr title="SubmenuAdmin::configureShowField">configureShowField</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#65"><abbr title="SubmenuAdmin::getBatchActions">getBatchActions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#31"><abbr title="SubmenuAdmin::configureDatagridFilters">configureDatagridFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#20"><abbr title="SubmenuAdmin::configureFormFields">configureFormFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#50"><abbr title="MenuAdmin::configureShowField">configureShowField</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#61"><abbr title="MenuAdmin::getBatchActions">getBatchActions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/UsertypemenuAdmin.php.html#19"><abbr title="UsertypemenuAdmin::configureFormFields">configureFormFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/UsertypemenuAdmin.php.html#27"><abbr title="UsertypemenuAdmin::configureDatagridFilters">configureDatagridFilters</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#77"><abbr title="Menu::setDescription">setDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#89"><abbr title="Menu::getDescription">getDescription</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#66"><abbr title="Menu::getType">getType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#54"><abbr title="Menu::setType">setType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Admin/UsertypemenuAdmin.php.html#35"><abbr title="UsertypemenuAdmin::configureListFields">configureListFields</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#43"><abbr title="Menu::getId">getId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#36"><abbr title="AuthorsController::createAction">createAction</a></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MenuBundle/Admin/SubmenuAdmin.php.html#65"><abbr title="SubmenuAdmin::getBatchActions">getBatchActions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#10"><abbr title="UserAdminController::batchActionExtend">batchActionExtend</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MenuBundle/Admin/MenuAdmin.php.html#61"><abbr title="MenuAdmin::getBatchActions">getBatchActions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Admin/UserAdmin.php.html#145"><abbr title="UserAdmin::getBatchActions">getBatchActions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserAdminController.php.html#41"><abbr title="UserAdminController::batchActionDeleteNeverActivated">batchActionDeleteNeverActivated</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#188"><abbr title="UserController::deleteAction">deleteAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#188"><abbr title="AuthorsController::deleteAction">deleteAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#249"><abbr title="UserController::UserLoginAction">UserLoginAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#158"><abbr title="AuthorsController::updateAction">updateAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#158"><abbr title="UserController::updateAction">updateAction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#238"><abbr title="UserController::loadUserByUsername">loadUserByUsername</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Entity/User.php.html#730"><abbr title="User::setCreatedAtValue">setCreatedAtValue</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#116"><abbr title="UserController::editAction">editAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#36"><abbr title="UserController::createAction">createAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Menu.php.html#139"><abbr title="Menu::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#116"><abbr title="AuthorsController::editAction">editAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MenuBundle/Entity/Submenu.php.html#139"><abbr title="Submenu::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#36"><abbr title="AuthorsController::createAction">createAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AuthorsBundle/Controller/AuthorsController.php.html#94"><abbr title="AuthorsController::showAction">showAction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="UserJoinPageBundle/Controller/UserController.php.html#94"><abbr title="UserController::showAction">showAction</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.13</a> using <a href="http://php.net/" target="_top">PHP 5.4.7</a> and <a href="http://phpunit.de/">PHPUnit 4.4.0</a> at Wed Jan 14 7:18:34 CET 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,2,0,0,0,0,1,1,0,0,1,14], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([135,0,0,0,0,0,0,0,0,0,0,52], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[5.7471264367816,17,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#15\">AuthorsController<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/DefaultController.php.html#7\">DefaultController<\/a>"],[97.297297297297,2,"<a href=\"AuthorsBundle\/DataFixtures\/ORM\/LoadAuthorsData.php.html#9\">LoadAuthorsData<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DependencyInjection\/Configuration.php.html#13\">Configuration<\/a>"],[100,1,"<a href=\"AuthorsBundle\/DependencyInjection\/TMSAuthorsExtension.php.html#15\">TMSAuthorsExtension<\/a>"],[61.224489795918,33,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#10\">Authors<\/a>"],[0,3,"<a href=\"AuthorsBundle\/Form\/AuthorsType.php.html#9\">AuthorsType<\/a>"],[100,0,"<a href=\"AuthorsBundle\/TMSAuthorsBundle.php.html#7\">TMSAuthorsBundle<\/a>"],[0,9,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#12\">MenuAdmin<\/a>"],[0,9,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#12\">SubmenuAdmin<\/a>"],[0,3,"<a href=\"MenuBundle\/Admin\/UsertypemenuAdmin.php.html#11\">UsertypemenuAdmin<\/a>"],[100,0,"<a href=\"MenuBundle\/Controller\/MenuAdminController.php.html#7\">MenuAdminController<\/a>"],[100,0,"<a href=\"MenuBundle\/Controller\/SubmenuAdminController.php.html#7\">SubmenuAdminController<\/a>"],[100,0,"<a href=\"MenuBundle\/Controller\/UsertypemenuAdminController.php.html#7\">UsertypemenuAdminController<\/a>"],[100,1,"<a href=\"MenuBundle\/DependencyInjection\/TMSMenuExtension.php.html#15\">TMSMenuExtension<\/a>"],[0,11,"<a href=\"MenuBundle\/Entity\/Menu.php.html#10\">Menu<\/a>"],[0,11,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#10\">Submenu<\/a>"],[0,5,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#10\">Usertypemenu<\/a>"],[100,0,"<a href=\"MenuBundle\/TMSMenuBundle.php.html#7\">TMSMenuBundle<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Admin\/ForgotPwd.php.html#10\">ForgotPwd<\/a>"],[0,9,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#13\">UserAdmin<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Admin\/UserTypeAdmin.php.html#11\">UserTypeAdmin<\/a>"],[0,10,"<a href=\"UserJoinPageBundle\/Controller\/UserAdminController.php.html#8\">UserAdminController<\/a>"],[4.2372881355932,29,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#15\">UserController<\/a>"],[100,0,"<a href=\"UserJoinPageBundle\/Controller\/UserTypeAdminController.php.html#7\">UserTypeAdminController<\/a>"],[100,2,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserData.php.html#9\">LoadUserData<\/a>"],[100,2,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserTypeData.php.html#9\">LoadUserTypeData<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DependencyInjection\/TMSUserJoinPageExtension.php.html#15\">TMSUserJoinPageExtension<\/a>"],[59.52380952381,56,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#10\">User<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Form\/UserType_org.php.html#9\">UserType<\/a>"],[100,0,"<a href=\"UserJoinPageBundle\/TMSUserJoinPageBundle.php.html#7\">TMSUserJoinPageBundle<\/a>"],[100,3,"<a href=\"UserJoinPageBundle\/Utils\/UserJoinPage.php.html#4\">UserJoinPage<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#22\">AuthorsController::indexAction<\/a>"],[0,2,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#36\">AuthorsController::createAction<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#63\">AuthorsController::createCreateForm<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#79\">AuthorsController::newAction<\/a>"],[0,2,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#94\">AuthorsController::showAction<\/a>"],[0,2,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#116\">AuthorsController::editAction<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#143\">AuthorsController::createEditForm<\/a>"],[0,3,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#158\">AuthorsController::updateAction<\/a>"],[0,3,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#188\">AuthorsController::deleteAction<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Controller\/AuthorsController.php.html#215\">AuthorsController::createDeleteForm<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/DefaultController.php.html#9\">DefaultController::indexAction<\/a>"],[100,1,"<a href=\"AuthorsBundle\/DataFixtures\/ORM\/LoadAuthorsData.php.html#11\">LoadAuthorsData::load<\/a>"],[0,1,"<a href=\"AuthorsBundle\/DataFixtures\/ORM\/LoadAuthorsData.php.html#55\">LoadAuthorsData::getOrder<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DependencyInjection\/Configuration.php.html#18\">Configuration::getConfigTreeBuilder<\/a>"],[100,1,"<a href=\"AuthorsBundle\/DependencyInjection\/TMSAuthorsExtension.php.html#20\">TMSAuthorsExtension::load<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#103\">Authors::getId<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#114\">Authors::setUser<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#126\">Authors::getUser<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#137\">Authors::setParentSubmission<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#149\">Authors::getParentSubmission<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#160\">Authors::setName<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#172\">Authors::getName<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#183\">Authors::setDob<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#195\">Authors::getDob<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#206\">Authors::setDeadWhen<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#218\">Authors::getDeadWhen<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#229\">Authors::setAnonymous<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#241\">Authors::getAnonymous<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#252\">Authors::setPseudonymousn<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#264\">Authors::getPseudonymousn<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#275\">Authors::setPseudonym<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#287\">Authors::getPseudonym<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#298\">Authors::setContribution<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#310\">Authors::getContribution<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#321\">Authors::setCompletedYear<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#333\">Authors::getCompletedYear<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#344\">Authors::setPublishedWhen<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#356\">Authors::getPublishedWhen<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#367\">Authors::setPublishedWhere<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#379\">Authors::getPublishedWhere<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#390\">Authors::setIsbn<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#402\">Authors::getIsbn<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#413\">Authors::setNationality<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#425\">Authors::getNationality<\/a>"],[100,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#436\">Authors::setCitizen<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#448\">Authors::getCitizen<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#459\">Authors::setDomicilied<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Entity\/Authors.php.html#471\">Authors::getDomicilied<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Form\/AuthorsType.php.html#15\">AuthorsType::buildForm<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Form\/AuthorsType.php.html#41\">AuthorsType::setDefaultOptions<\/a>"],[0,1,"<a href=\"AuthorsBundle\/Form\/AuthorsType.php.html#51\">AuthorsType::getName<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#20\">MenuAdmin::configureFormFields<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#30\">MenuAdmin::configureDatagridFilters<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#40\">MenuAdmin::configureListFields<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#50\">MenuAdmin::configureShowField<\/a>"],[0,5,"<a href=\"MenuBundle\/Admin\/MenuAdmin.php.html#61\">MenuAdmin::getBatchActions<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#20\">SubmenuAdmin::configureFormFields<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#31\">SubmenuAdmin::configureDatagridFilters<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#42\">SubmenuAdmin::configureListFields<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#53\">SubmenuAdmin::configureShowField<\/a>"],[0,5,"<a href=\"MenuBundle\/Admin\/SubmenuAdmin.php.html#65\">SubmenuAdmin::getBatchActions<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/UsertypemenuAdmin.php.html#19\">UsertypemenuAdmin::configureFormFields<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/UsertypemenuAdmin.php.html#27\">UsertypemenuAdmin::configureDatagridFilters<\/a>"],[0,1,"<a href=\"MenuBundle\/Admin\/UsertypemenuAdmin.php.html#35\">UsertypemenuAdmin::configureListFields<\/a>"],[100,1,"<a href=\"MenuBundle\/DependencyInjection\/TMSMenuExtension.php.html#20\">TMSMenuExtension::load<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#43\">Menu::getId<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#54\">Menu::setType<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#66\">Menu::getType<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#77\">Menu::setDescription<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#89\">Menu::getDescription<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#100\">Menu::setHref<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#112\">Menu::getHref<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#123\">Menu::setAction<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Menu.php.html#135\">Menu::getAction<\/a>"],[0,2,"<a href=\"MenuBundle\/Entity\/Menu.php.html#139\">Menu::__toString<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#43\">Submenu::getId<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#54\">Submenu::setDescription<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#66\">Submenu::getDescription<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#77\">Submenu::setHref<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#89\">Submenu::getHref<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#100\">Submenu::setAction<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#112\">Submenu::getAction<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#123\">Submenu::setMenu<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#135\">Submenu::getMenu<\/a>"],[0,2,"<a href=\"MenuBundle\/Entity\/Submenu.php.html#139\">Submenu::__toString<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#33\">Usertypemenu::getId<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#44\">Usertypemenu::setUserType<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#56\">Usertypemenu::getUserType<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#67\">Usertypemenu::setMenu<\/a>"],[0,1,"<a href=\"MenuBundle\/Entity\/Usertypemenu.php.html#79\">Usertypemenu::getMenu<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/ForgotPwd.php.html#16\">ForgotPwd::buildForm<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/ForgotPwd.php.html#46\">ForgotPwd::setDefaultOptions<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/ForgotPwd.php.html#56\">ForgotPwd::getName<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#20\">UserAdmin::configureFormFields<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#51\">UserAdmin::configureDatagridFilters<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#82\">UserAdmin::configureListFields<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#113\">UserAdmin::configureShowField<\/a>"],[0,5,"<a href=\"UserJoinPageBundle\/Admin\/UserAdmin.php.html#145\">UserAdmin::getBatchActions<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserTypeAdmin.php.html#19\">UserTypeAdmin::configureFormFields<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserTypeAdmin.php.html#26\">UserTypeAdmin::configureDatagridFilters<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Admin\/UserTypeAdmin.php.html#33\">UserTypeAdmin::configureListFields<\/a>"],[0,5,"<a href=\"UserJoinPageBundle\/Controller\/UserAdminController.php.html#10\">UserAdminController::batchActionExtend<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserAdminController.php.html#36\">UserAdminController::batchActionDeleteNeverActivatedIsRelevant<\/a>"],[0,4,"<a href=\"UserJoinPageBundle\/Controller\/UserAdminController.php.html#41\">UserAdminController::batchActionDeleteNeverActivated<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#22\">UserController::indexAction<\/a>"],[0,2,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#36\">UserController::createAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#63\">UserController::createCreateForm<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#79\">UserController::newAction<\/a>"],[0,2,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#94\">UserController::showAction<\/a>"],[0,2,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#116\">UserController::editAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#143\">UserController::createEditForm<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#158\">UserController::updateAction<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#188\">UserController::deleteAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#215\">UserController::createDeleteForm<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#225\">UserController::forgotpwdAction<\/a>"],[0,2,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#238\">UserController::loadUserByUsername<\/a>"],[0,3,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#249\">UserController::UserLoginAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#275\">UserController::PrivacyPolicyAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#279\">UserController::TermsConditionsAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#283\">UserController::JobOpportunitiesAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#287\">UserController::InviteAFriendAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#291\">UserController::ContactUsAction<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Controller\/UserController.php.html#295\">UserController::AdvertiseAction<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserData.php.html#11\">LoadUserData::load<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserData.php.html#72\">LoadUserData::getOrder<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserTypeData.php.html#11\">LoadUserTypeData::load<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DataFixtures\/ORM\/LoadUserTypeData.php.html#34\">LoadUserTypeData::getOrder<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/DependencyInjection\/TMSUserJoinPageExtension.php.html#20\">TMSUserJoinPageExtension::load<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#148\">User::getId<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#159\">User::setUserType<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#171\">User::getUserType<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#182\">User::setNickName<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#194\">User::getNickName<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#205\">User::setFirstName<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#217\">User::getFirstName<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#228\">User::setLastName<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#240\">User::getLastName<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#251\">User::setEmail<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#263\">User::getEmail<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#274\">User::setPassword<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#286\">User::getPassword<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#297\">User::setSalt<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#309\">User::getSalt<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#320\">User::setStatus<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#332\">User::getStatus<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#343\">User::setIdChatStatus<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#355\">User::getIdChatStatus<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#366\">User::setSex<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#378\">User::getSex<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#389\">User::setDescriptionMe<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#401\">User::getDescriptionMe<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#412\">User::setCountry<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#424\">User::getCountry<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#435\">User::setCity<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#447\">User::getCity<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#458\">User::setDateOfBirth<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#470\">User::getDateOfBirth<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#481\">User::setDateReg<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#493\">User::getDateReg<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#504\">User::setDateLastLogin<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#516\">User::getDateLastLogin<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#527\">User::setType<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#539\">User::getType<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#550\">User::setFacebookUrl<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#562\">User::getFacebookUrl<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#573\">User::setTwitterUrl<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#585\">User::getTwitterUrl<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#596\">User::setYoutubeUrl<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#608\">User::getYoutubeUrl<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#619\">User::setMyspaceUrl<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#631\">User::getMyspaceUrl<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#642\">User::setIdPaypal<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#654\">User::getIdPaypal<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#665\">User::setIdMedia<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#677\">User::getIdMedia<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#688\">User::setRecordLabel<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#700\">User::getRecordLabel<\/a>"],[100,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#711\">User::setIdMusicGenre<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#723\">User::getIdMusicGenre<\/a>"],[0,2,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#730\">User::setCreatedAtValue<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#740\">User::setUpdatedAtValue<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#744\">User::getUserTypes<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Entity\/User.php.html#750\">User::getUserTypeValues<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Form\/UserType_org.php.html#15\">UserType::buildForm<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Form\/UserType_org.php.html#49\">UserType::setDefaultOptions<\/a>"],[0,1,"<a href=\"UserJoinPageBundle\/Form\/UserType_org.php.html#59\">UserType::getName<\/a>"],[100,3,"<a href=\"UserJoinPageBundle\/Utils\/UserJoinPage.php.html#7\">UserJoinPage::slugify<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

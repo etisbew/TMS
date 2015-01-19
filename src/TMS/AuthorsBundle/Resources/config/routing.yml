@@ -1,0 +1,7 @@
+tms_authors_tms_authors:
+    resource: "@TMSAuthorsBundle/Resources/config/routing/authors.yml"
+    prefix:   /tms_authors
+
+tms_authors_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TMSAuthorsBundle:Default:index }

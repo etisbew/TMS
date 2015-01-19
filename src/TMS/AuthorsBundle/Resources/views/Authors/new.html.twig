@@ -1,0 +1,69 @@
+{% block stylesheets %}
+	<link rel="stylesheet" href="{{ asset('tms_media/css/main.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/bootstrap.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/bootstrap-theme.min.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/theme.css') }}" type="text/css" media="all" />
+{% endblock %}
+
+{{ include ('TMSAuthorsBundle:Authors:header.html.twig') }}
+
+{% block body -%}
+    <div class="col-lg-offset-1 col-lg-10 col-md-12 col-sm-12 col-xs-12 content_area">
+        <br><br><br><br><br>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3 class="hidden-xs dark_grey">Author</h3>
+                <h4 class="visible-xs dark_grey">Welcome to TheMusicSite.com</h4>
+                <hr class="hr_subline hidden-xs" style="width: 20%; border-width: 3px; margin-top: 12px;">
+            </div>
+        </div>
+        <br>
+	  <form action="{{ path('tms_authors_create') }}" method="post" {{ form_enctype(form) }}>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-md-7 col-sm-9">
+                        <div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Name:</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.name, { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Anonymous: </div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.anonymous, { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Pseudonym:</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.pseudonym, { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+						<div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Contribution :</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.contribution , { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+						<div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Completed_Year:</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.completed_year , { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+						<div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Nationality:</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.nationality, { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+						<div class="row form-group">
+                            <div class="col-sm-4 text-right text-left-xs field_label">Citizen:</div>
+                            <div class="col-sm-6 no_col_left_padding">{{ form_widget(form.citizen, { 'attr': {'class': 'form-control'} }) }}</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+			 <div class="row">
+            <div class="col-sm-12 text-center">
+				{{ form_widget(form.join) }}
+            </div>
+
+        <br>
+       
+        <br><br>
+	{{ form_end(form) }}
+    </div>
+{% endblock %}
+

@@ -1,0 +1,27 @@
+TMS\MenuBundle\Entity\Submenu:
+    type: entity
+    table: Submenu
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        description:
+            type: string
+            length: 255
+            nullable: true
+        href:
+            type: string
+            length: 255
+            nullable: true;
+        action:
+            type: string
+            length: 255
+            nullable: true
+    manyToOne:
+        menu:
+            targetEntity: Menu
+            inversedBy: submenu
+            joinColumn:
+                name: id
+                referencedColumnName: id

@@ -16,33 +16,20 @@ class UserType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('user_type', 'choice', array('choices' => User::getUserTypes(), 'multiple' => false, "expanded" => true,'mapped' => true)) 
+			->add('user_type')
 		    ->add('nick_name')
-            //->add('nick_name')
             ->add('first_name')
-           // ->add('last_name')
-            ->add('email')
-            ->add('password','password')
+            ->add('email','email')
+            /*->add('password','password')*/
+			->add('password', 'repeated', array(
+					'type' => 'password',
+					'invalid_message' => 'The password fields must match.',
+					'options' => array('attr' => array('class' => 'form-control')),
+					'required' => true,
+					'first_options'  => array('label' => 'Password'),
+					'second_options' => array('label' => 'Confirm Password'),
+				))
 			->add('join', 'submit', array('attr' => array('class' => 'btn btn-success')))
-            /*->add('salt')
-            ->add('status')
-            ->add('id_chat_status')
-            ->add('sex')
-            ->add('descriptionMe')
-            ->add('country')
-            ->add('city')
-            ->add('date_of_birth')
-            ->add('date_reg')
-            ->add('date_last_login')
-            ->add('type')
-            ->add('facebook_url')
-            ->add('twitter_url')
-            ->add('youtube_url')
-            ->add('myspace_url')
-            ->add('id_paypal')
-            ->add('id_media')
-            ->add('record_label')
-            ->add('id_music_genre')*/
         ;
     }
     
@@ -61,6 +48,7 @@ class UserType extends AbstractType
      */
     public function getName()
     {
-        return 'ms_msbundle_user';
+        //return 'ms_msbundle_user';
+		return 'tms_userjoinpagebundle_user';
     }
 }

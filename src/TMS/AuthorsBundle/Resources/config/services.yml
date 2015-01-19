@@ -1,0 +1,4 @@
+services:
+#    tms_authors.example:
+#        class: TMS\AuthorsBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

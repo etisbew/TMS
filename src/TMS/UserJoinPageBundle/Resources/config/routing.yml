@@ -23,9 +23,14 @@ userlogin:
 userlogin_check:
     pattern:   /userlogin_check
     defaults:  { _controller: TMSUserJoinPageBundle:User:userlogin }
+userlogout:
+    pattern:   /userlogout
+    defaults:  { _controller: TMSUserJoinPageBundle:User:userlogout }
+
 tms_user_join_page_forgotpwd:
     path:     /forgotpwd
     defaults: { _controller: TMSUserJoinPageBundle:User:forgotpwd }
+
 tms_user_join_page_tms_user:
     resource: "@TMSUserJoinPageBundle/Resources/config/routing/user.yml"
     prefix:   /tms_user

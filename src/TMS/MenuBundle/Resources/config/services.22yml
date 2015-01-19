@@ -1,0 +1,31 @@
+services:
+#    tms_menu.example:
+#        class: TMS\MenuBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+services:
+    tms.menu.admin.menu:
+        class: TMS\MenuBundle\Admin\MenuAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Menu, label: Menu }
+        arguments:
+            - ~
+            - TMS\MenuBundle\Entity\Menu
+            - 'TMSMenuBundle:MenuAdmin'
+ 
+    tms.submenu.admin.submenu:
+        class: TMS\MenuBundle\Admin\SubmenuAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Menu, label: Submenu }
+        arguments:
+            - ~
+            - TMS\MenuBundle\Entity\Submenu
+            - 'TMSMenuBundle:SubmenuAdmin'
+ 
+    tms.usertypemenu.admin.usertypemenu:
+        class: TMS\MenuBundle\Admin\UsertypemenuAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Menu, label: Usertypemenu }
+        arguments:
+            - ~
+            - TMS\MenuBundle\Entity\Usertypemenu
+            - 'TMSMenuBundle:UsertypemenuAdmin'

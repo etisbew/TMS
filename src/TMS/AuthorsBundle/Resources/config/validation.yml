@@ -1,0 +1,14 @@
+TMS\AuthorsBundle\Entity\Authors:
+    properties:
+        name:
+            - NotBlank: ~
+        anonymous:
+            - NotBlank: ~
+        pseudonym:
+            - NotBlank: ~
+        contribution:
+            - NotBlank: ~
+        nationality:
+            - NotBlank: ~
+        citizen:
+            - NotBlank: ~

@@ -1,0 +1,92 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Authors</h1>
+
+    <table class="record_properties">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ entity.id }}</td>
+            </tr>
+            <tr>
+                <th>User</th>
+                <td>{{ entity.user }}</td>
+            </tr>
+            <tr>
+                <th>Parent_submission</th>
+                <td>{{ entity.parentsubmission }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ entity.name }}</td>
+            </tr>
+            <tr>
+                <th>Dob</th>
+                <td>{{ entity.dob|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Dead_when</th>
+                <td>{{ entity.deadwhen|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Anonymous</th>
+                <td>{{ entity.anonymous }}</td>
+            </tr>
+            <tr>
+                <th>Pseudonymousn</th>
+                <td>{{ entity.pseudonymousn }}</td>
+            </tr>
+            <tr>
+                <th>Pseudonym</th>
+                <td>{{ entity.pseudonym }}</td>
+            </tr>
+            <tr>
+                <th>Contribution</th>
+                <td>{{ entity.contribution }}</td>
+            </tr>
+            <tr>
+                <th>Completed_year</th>
+                <td>{{ entity.completedyear }}</td>
+            </tr>
+            <tr>
+                <th>Published_when</th>
+                <td>{{ entity.publishedwhen|date('Y-m-d H:i:s') }}</td>
+            </tr>
+            <tr>
+                <th>Published_where</th>
+                <td>{{ entity.publishedwhere }}</td>
+            </tr>
+            <tr>
+                <th>Isbn</th>
+                <td>{{ entity.isbn }}</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>{{ entity.nationality }}</td>
+            </tr>
+            <tr>
+                <th>Citizen</th>
+                <td>{{ entity.citizen }}</td>
+            </tr>
+            <tr>
+                <th>Domicilied</th>
+                <td>{{ entity.domicilied }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('tms_authors') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('tms_authors_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

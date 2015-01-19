@@ -1,8 +1,8 @@
 {% block stylesheets %}
-	<link rel="stylesheet" href="{{ asset('bundles/tmsuserjoinpage/css/main.css') }}" type="text/css" media="all" />
-	<link rel="stylesheet" href="{{ asset('bundles/tmsuserjoinpage/css/bootstrap.css') }}" type="text/css" media="all" />
-	<link rel="stylesheet" href="{{ asset('bundles/tmsuserjoinpage/css/bootstrap-theme.min.css') }}" type="text/css" media="all" />
-	<link rel="stylesheet" href="{{ asset('bundles/tmsuserjoinpage/css/theme.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/main.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/bootstrap.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/bootstrap-theme.min.css') }}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('tms_media/css/theme.css') }}" type="text/css" media="all" />
 {% endblock %}
 {{ include ('TMSUserJoinPageBundle:User:header.html.twig') }}
 {% block body -%}
@@ -17,7 +17,6 @@
         background-size: cover;
         padding-bottom: 0px;
         padding-top: 65px;
-
     }
     .footerMine{display: none;}
     .homepage_content{background-color: rgba(255,255,255); background-color: rgba(255,255,255,.7); min-height: 800px;}
@@ -66,6 +65,7 @@
                     <h3>Log In</h3>
                 </div>
             </div>
+
 			<form action="{{ path('userlogin_check') }}" method="post">
             <div class="row home_login_row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -123,9 +123,9 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-3 text-center-xs">
-                    <a href="../../prototype-general-flat/prototypes/index.html#Welcome_Step_1"><img src="/Music_Site/web/bundles/tmsuserjoinpage/images/home_twitter_signup.jpg" alt=""></a>
+                    <a href="../../prototype-general-flat/prototypes/index.html#Welcome_Step_1"><img src="{{ asset('tms_media/images/home_twitter_signup.jpg') }}" alt=""></a>
                     <p></p>
-                    <a href="../../prototype-general-flat/prototypes/index.html#Welcome_Step_1"><img src="/Music_Site/web/bundles/tmsuserjoinpage/images/home_fb_signup.jpg" alt=""></a><br>
+                    <a href="../../prototype-general-flat/prototypes/index.html#Welcome_Step_1"><img src="{{ asset('tms_media/images/home_fb_signup.jpg') }}" alt=""></a><br>
                 </div>
             </div>
             <div class="row">

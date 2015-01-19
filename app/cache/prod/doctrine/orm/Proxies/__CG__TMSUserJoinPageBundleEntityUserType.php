@@ -64,10 +64,10 @@ class UserType extends \TMS\UserJoinPageBundle\Entity\UserType implements \Doctr
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'name');
+            return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'user');
         }
 
-        return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'name');
+        return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\UserType' . "\0" . 'user');
     }
 
     /**
@@ -208,6 +208,39 @@ class UserType extends \TMS\UserJoinPageBundle\Entity\UserType implements \Doctr
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', array());
 
         return parent::getName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addUser(\TMS\UserJoinPageBundle\Entity\User $user)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addUser', array($user));
+
+        return parent::addUser($user);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function removeUser(\TMS\UserJoinPageBundle\Entity\User $user)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'removeUser', array($user));
+
+        return parent::removeUser($user);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUser()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUser', array());
+
+        return parent::getUser();
     }
 
     /**

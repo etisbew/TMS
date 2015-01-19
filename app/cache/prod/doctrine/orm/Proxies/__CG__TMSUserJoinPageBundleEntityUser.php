@@ -64,10 +64,10 @@ class User extends \TMS\UserJoinPageBundle\Entity\User implements \Doctrine\ORM\
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'user_type', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'nick_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'first_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'last_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'salt', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_chat_status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'sex', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'descriptionMe', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'country', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'city', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_of_birth', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_reg', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_last_login', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'type', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'facebook_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'twitter_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'youtube_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'myspace_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_paypal', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_media', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'record_label', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_music_genre');
+            return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'nick_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'first_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'last_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'salt', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'roles', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_chat_status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'sex', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'descriptionMe', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'country', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'city', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_of_birth', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_reg', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_last_login', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'facebook_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'twitter_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'youtube_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'myspace_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_paypal', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_media', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'record_label', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_music_genre', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'user_type');
         }
 
-        return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'user_type', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'nick_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'first_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'last_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'salt', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_chat_status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'sex', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'descriptionMe', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'country', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'city', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_of_birth', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_reg', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_last_login', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'type', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'facebook_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'twitter_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'youtube_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'myspace_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_paypal', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_media', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'record_label', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_music_genre');
+        return array('__isInitialized__', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'nick_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'first_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'last_name', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'email', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'password', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'salt', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'roles', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_chat_status', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'sex', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'descriptionMe', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'country', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'city', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_of_birth', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_reg', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'date_last_login', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'facebook_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'twitter_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'youtube_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'myspace_url', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_paypal', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_media', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'record_label', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'id_music_genre', '' . "\0" . 'TMS\\UserJoinPageBundle\\Entity\\User' . "\0" . 'user_type');
     }
 
     /**
@@ -186,28 +186,6 @@ class User extends \TMS\UserJoinPageBundle\Entity\User implements \Doctrine\ORM\
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', array());
 
         return parent::getId();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setUserType($userType)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUserType', array($userType));
-
-        return parent::setUserType($userType);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUserType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUserType', array());
-
-        return parent::getUserType();
     }
 
     /**
@@ -340,6 +318,28 @@ class User extends \TMS\UserJoinPageBundle\Entity\User implements \Doctrine\ORM\
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSalt', array());
 
         return parent::getSalt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRoles($roles)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRoles', array($roles));
+
+        return parent::setRoles($roles);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRoles()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRoles', array());
+
+        return parent::getRoles();
     }
 
     /**
@@ -543,28 +543,6 @@ class User extends \TMS\UserJoinPageBundle\Entity\User implements \Doctrine\ORM\
     /**
      * {@inheritDoc}
      */
-    public function setType($type)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setType', array($type));
-
-        return parent::setType($type);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getType()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getType', array());
-
-        return parent::getType();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function setFacebookUrl($facebookUrl)
     {
 
@@ -741,23 +719,23 @@ class User extends \TMS\UserJoinPageBundle\Entity\User implements \Doctrine\ORM\
     /**
      * {@inheritDoc}
      */
-    public function setCreatedAtValue()
+    public function setUserType(\TMS\UserJoinPageBundle\Entity\UserType $userType = NULL)
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreatedAtValue', array());
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUserType', array($userType));
 
-        return parent::setCreatedAtValue();
+        return parent::setUserType($userType);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function setUpdatedAtValue()
+    public function getUserType()
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUpdatedAtValue', array());
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUserType', array());
 
-        return parent::setUpdatedAtValue();
+        return parent::getUserType();
     }
 
 }

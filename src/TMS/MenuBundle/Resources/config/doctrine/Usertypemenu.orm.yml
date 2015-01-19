@@ -1,0 +1,16 @@
+TMS\MenuBundle\Entity\Usertypemenu:
+    type: entity
+    table: Usertypemenu
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        user_type:
+            type: integer
+            length: 2
+            nullable: true
+        menu:
+            type: integer
+            length: 4
+            nullable: true

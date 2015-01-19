@@ -51,9 +51,10 @@
                     <div class="row">
                     <br>
                     <br>
-                        <h2>Welcome to TheMusicSite.com</h2>
+                        <h2>Welcome {{ app.session.get('name') }}, to TheMusicSite </h2>
 
                         <h4>The world's music social network!!!</h4>
+						<h4><a href="{{ path('userlogout') }}">logout</a></h4>
                     </div>
 
                 </div>

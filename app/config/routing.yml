@@ -1,3 +1,11 @@
+tms_menu:
+    resource: "@TMSMenuBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tms_authors:
+    resource: "@TMSAuthorsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 tms_user_join_page:
     resource: "@TMSUserJoinPageBundle/Resources/config/routing.yml"
     prefix:   /

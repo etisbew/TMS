@@ -1,0 +1,30 @@
+media:
+    path:     /
+    defaults: { _controller: "TMSUserJoinPageBundle:media:index" }
+
+media_show:
+    path:     /{id}/show
+    defaults: { _controller: "TMSUserJoinPageBundle:media:show" }
+
+media_new:
+    path:     /new
+    defaults: { _controller: "TMSUserJoinPageBundle:media:new" }
+
+media_create:
+    path:     /create
+    defaults: { _controller: "TMSUserJoinPageBundle:media:create" }
+    requirements: { _method: post }
+
+media_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "TMSUserJoinPageBundle:media:edit" }
+
+media_update:
+    path:     /{id}/update
+    defaults: { _controller: "TMSUserJoinPageBundle:media:update" }
+    requirements: { _method: post|put }
+
+media_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "TMSUserJoinPageBundle:media:delete" }
+    requirements: { _method: post|delete }

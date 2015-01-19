@@ -1,9 +1,9 @@
 <?php
-
 namespace TMS\UserJoinPageBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Session\Session;
 
 use TMS\UserJoinPageBundle\Entity\User;
 use TMS\UserJoinPageBundle\Form\UserType;
@@ -70,6 +70,7 @@ class UserController extends Controller
         $form->add('submit', 'submit', array('label' => 'Create'));
 
         return $form;
+    
     }
 
     /**
@@ -142,7 +143,7 @@ class UserController extends Controller
     */
     private function createEditForm(User $entity)
     {
-        $form = $this->createForm(new UserType(), $entity, array(
+	    $form = $this->createForm(new UserType(), $entity, array(
             'action' => $this->generateUrl('user_update', array('id' => $entity->getId())),
             'method' => 'PUT',
         ));
@@ -156,12 +157,13 @@ class UserController extends Controller
      *
      */
     public function updateAction(Request $request, $id)
-    {
+    {//echo 'update';echo '<pre>';print_r($request);echo '</pre>';
+	//exit;
         $em = $this->getDoctrine()->getManager();
 
         $entity = $em->getRepository('TMSUserJoinPageBundle:User')->find($id);
 
-        if (!$entity) {
+        if (!$entity) {echo 'erro';
             throw $this->createNotFoundException('Unable to find User entity.');
         }
 
@@ -169,6 +171,13 @@ class UserController extends Controller
         $editForm = $this->createEditForm($entity);
         $editForm->handleRequest($request);
 
+        if ($editForm->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+            $em->flush();
+
+           // return $this->redirect($this->generateUrl('user_show', array('id' => $entity->getId())));
+        }
+		exit;
         if ($editForm->isValid()) {
             $em->flush();
 
@@ -222,9 +231,8 @@ class UserController extends Controller
         ;
     }
 	
-	public function forgotpwdAction()
+	public function forgotpwdAction(Request $request)
 	{
-		//return $this->render('TMSUserJoinPageBundle:User:forgotpwd.html.twig');
 		  $entity = new User();
 		$form   = $this->createCreateForm($entity);
 
@@ -233,13 +241,42 @@ class UserController extends Controller
             'form'   => $form->createView(),
         ));
 	}
-	//login
 	
-		 public function loadUserByUsername($username)
+	public function forgotAction(Request $request)
+	{
+		$postdata = $request->request->get('username');
+		
+		$user = $this->loadUserByUsername($postdata);
+		
+		if ($user) 
+		{
+			 $message = \Swift_Message::newInstance()
+                ->setSubject('Musicsite Password')
+                ->setFrom('venkata.ummadi@etisbew.com')
+                ->setTo($postdata)
+                ->setBody(
+                    $this->renderView('TMSUserJoinPageBundle:User:email.txt.twig', array('password' => $user->getPassword())))
+            ;
+ 
+            $this->get('mailer')->send($message);
+				
+		}
+		else
+		{
+			echo "Email id is not exist.";
+			exit;
+		
+		}
+		return $this->render('TMSUserJoinPageBundle:User:forgotpwd.html.twig');
+		
+	}
+		//login
+	
+	public function loadUserByUsername($username)
 	{
 		/** @var $em EntityManager */
 		$em = $this->container->get('doctrine')->getManager();
-		$user = $em->getRepository('TMSUserJoinPageBundle:User')->findOneBy(array('email' => $username));
+		$user = $em->getRepository('TMSUserJoinPageBundle:User')->findOneBy(array('first_name' => $username));
 		if ($user != null) {
 			return $user;
 		}
@@ -252,15 +289,15 @@ class UserController extends Controller
 		 $password=$request->get('_password');
 		/** @var $user User */
 		$user = $this->loadUserByUsername($username);//use function loadUserByUsername above
-		
 		if ($user) {
-			//$encoder = $this->container->get('security.encoder_factory')->getEncoder($user);
-			//encode Password from password & salt of user
-		   // $encodedPass = $encoder->encodePassword($password, $user->getSalt());
 			if ($password == $user->getPassword()) {
+				
+				$session = new \Symfony\Component\HttpFoundation\Session\Session();
+                $session->set('name', $user->getFirstname().' '.$user->getLastname());
+	
+				$session = $this->get('session');
+
 				$error = '';
-				//login info is true, you can return $user
-				//return true;
 				return $this->render('TMSUserJoinPageBundle:User:home.html.twig', array(
             'error'      => $error,
         ));
@@ -268,9 +305,14 @@ class UserController extends Controller
 		}
 		//login info is false
 		$error = 'Invalid username & password';
-		return $this->render('TMSUserJoinPageBundle:User:index.html.twig', array(
+		return $this->render('TMSUserJoinPageBundle:User:login.html.twig', array(
             'error'      => $error,
         ));
+	}
+	public function userlogoutAction(){	  
+	   $this->get('security.context')->setToken(null);
+       $this->get('request')->getSession()->invalidate();
+	   return $this->render('TMSUserJoinPageBundle:User:index.html.twig');	
 	}
 	public function PrivacyPolicyAction()
     {

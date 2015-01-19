@@ -1,0 +1,61 @@
+TMS\AuthorsBundle\Entity\Authors:
+    type: entity
+    table: Authors
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        user:
+            type: string
+            length: 255
+            nullable: true
+        parent_submission:
+            type: string
+            length: 25
+            nullable: true
+        name:
+            type: string
+            length: 255
+        dob:
+            type: date
+            nullable: true
+        dead_when:
+            type: date
+            nullable: true
+        anonymous:
+            type: string
+            length: 255
+        pseudonymousn:
+            type: string
+            length: 255
+            nullable: true
+        pseudonym:
+            type: string
+            length: 255
+        contribution:
+            type: text
+        completed_year:
+            type: integer
+            nullable: true
+        published_when:
+            type: date
+            nullable: true
+        published_where:
+            type: string
+            length: 255
+            nullable: true
+        isbn:
+            type: string
+            length: 255
+            nullable: true
+        nationality:
+            type: string
+            length: 255
+        citizen:
+            type: string
+            length: 255
+        domicilied:
+            type: string
+            length: 255
+            nullable: true

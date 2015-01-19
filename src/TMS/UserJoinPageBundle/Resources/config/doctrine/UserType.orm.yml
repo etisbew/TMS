@@ -10,3 +10,7 @@ TMS\UserJoinPageBundle\Entity\UserType:
             type: string
             length: 255
             unique: true
+    oneToMany:
+        user:
+            targetEntity: User
+            mappedBy: usertype

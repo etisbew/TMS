@@ -1,0 +1,13 @@
+TMS\UserJoinPageBundle\Entity\User:
+    properties:
+        nick_name:
+            - NotBlank: ~
+        first_name:
+            - NotBlank: ~
+        email:
+            - NotBlank: ~
+            - Email: ~
+        password:
+            - NotBlank: ~
+        user_type:
+            - NotBlank: ~

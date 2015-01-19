@@ -1,0 +1,30 @@
+tms_authors:
+    path:     /
+    defaults: { _controller: "TMSAuthorsBundle:Authors:index" }
+
+tms_authors_show:
+    path:     /{id}/show
+    defaults: { _controller: "TMSAuthorsBundle:Authors:show" }
+
+tms_authors_new:
+    path:     /new
+    defaults: { _controller: "TMSAuthorsBundle:Authors:new" }
+
+tms_authors_create:
+    path:     /create
+    defaults: { _controller: "TMSAuthorsBundle:Authors:create" }
+    requirements: { _method: post }
+
+tms_authors_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "TMSAuthorsBundle:Authors:edit" }
+
+tms_authors_update:
+    path:     /{id}/update
+    defaults: { _controller: "TMSAuthorsBundle:Authors:update" }
+    requirements: { _method: post|put }
+
+tms_authors_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "TMSAuthorsBundle:Authors:delete" }
+    requirements: { _method: post|delete }

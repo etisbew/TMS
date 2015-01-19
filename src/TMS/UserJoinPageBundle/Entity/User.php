@@ -17,11 +17,6 @@ class User
     /**
      * @var string
      */
-    private $user_type;
-
-    /**
-     * @var string
-     */
     private $nick_name;
 
     /**
@@ -48,6 +43,11 @@ class User
      * @var string
      */
     private $salt;
+
+    /**
+     * @var string
+     */
+    private $roles;
 
     /**
      * @var string
@@ -97,11 +97,6 @@ class User
     /**
      * @var string
      */
-    private $type;
-
-    /**
-     * @var string
-     */
     private $facebook_url;
 
     /**
@@ -139,6 +134,11 @@ class User
      */
     private $id_music_genre;
 
+    /**
+     * @var \TMS\UserJoinPageBundle\Entity\UserType
+     */
+    private $user_type;
+
 
     /**
      * Get id
@@ -148,29 +148,6 @@ class User
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * Set user_type
-     *
-     * @param string $userType
-     * @return User
-     */
-    public function setUserType($userType)
-    {
-        $this->user_type = $userType;
-    
-        return $this;
-    }
-
-    /**
-     * Get user_type
-     *
-     * @return string 
-     */
-    public function getUserType()
-    {
-        return $this->user_type;
     }
 
     /**
@@ -309,6 +286,29 @@ class User
     public function getSalt()
     {
         return $this->salt;
+    }
+
+    /**
+     * Set roles
+     *
+     * @param string $roles
+     * @return User
+     */
+    public function setRoles($roles)
+    {
+        $this->roles = $roles;
+    
+        return $this;
+    }
+
+    /**
+     * Get roles
+     *
+     * @return string 
+     */
+    public function getRoles()
+    {
+        return $this->roles;
     }
 
     /**
@@ -519,29 +519,6 @@ class User
     }
 
     /**
-     * Set type
-     *
-     * @param string $type
-     * @return User
-     */
-    public function setType($type)
-    {
-        $this->type = $type;
-    
-        return $this;
-    }
-
-    /**
-     * Get type
-     *
-     * @return string 
-     */
-    public function getType()
-    {
-        return $this->type;
-    }
-
-    /**
      * Set facebook_url
      *
      * @param string $facebookUrl
@@ -724,31 +701,34 @@ class User
     {
         return $this->id_music_genre;
     }
-	 /**
-     * @ORM\PrePersist
-     */
-    public function setCreatedAtValue()
-    {
-        if(!$this->getCreatedAt()) {
-            $this->created_at = new \DateTime();
-        }
-    }
- 
+
     /**
-     * @ORM\PreUpdate
+     * Set user_type
+     *
+     * @param \TMS\UserJoinPageBundle\Entity\UserType $userType
+     * @return User
      */
-    public function setUpdatedAtValue()
+	 public function setUserType($userType)
     {
-        $this->updated_at = new \DateTime();
+        $this->user_type = $userType;
+    
+        return $this;
     }
-		public static function getUserTypes()
+    /*public function setUserType(\TMS\UserJoinPageBundle\Entity\UserType $userType = null)
     {
-		
-        return array('1' => ' Fan ', '2' => ' Artist ', '3' => ' Band/Group ', '4' => ' Songwriter ','5' => ' Musician ', '6' => ' DJ ', '7' => ' MC ','8' => ' Music Producer ','9' => ' Tribute Act ', '10' => ' Lyricist ','11' => ' Record Label ','12' => ' Agent/Manager ','13' => ' Promoter/Organiser ',  '14' => ' Music Venue ');
-    }
- 
-    public static function getUserTypeValues()
+        $this->user_type = $userType;
+    
+        return $this;
+    }*/
+
+    /**
+     * Get user_type
+     *
+     * @return \TMS\UserJoinPageBundle\Entity\UserType 
+     */
+    public function getUserType()
     {
-        return array_keys(self::getUserTypes());
+        return $this->user_type;
     }
+
 }

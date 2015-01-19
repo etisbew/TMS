@@ -1,0 +1,23 @@
+TMS\MenuBundle\Entity\Menu:
+    type: entity
+    table: Menu
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        type:
+            type: string
+            length: 255
+            nullable: true
+        description:
+            type: string
+            length: 255
+            nullable: true
+        href:
+            type: string
+            length: 255
+            nullable: true
+        action:
+            type: text
+            nullable: true
